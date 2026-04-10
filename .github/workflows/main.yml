@@ -1,0 +1,40 @@
+name: Windscribe IP Scraper
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every 24 hours at midnight UTC
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  scrape-windscribe-ips:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Windscribe IP Scraper
+        run: python main.py
+
+      - name: Run Get Windscribe Entry IPs
+        run: python entry_ips.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add windscribe_ips.json windscribe_ips.txt windscribe_serverlist.json windscribe_entry_ips.json windscribe_entry_ips.txt windscribe_subdomains.json
+          git commit -m "Update Windscribe IPs [skip ci]" || echo "No changes to commit"
+          git push
