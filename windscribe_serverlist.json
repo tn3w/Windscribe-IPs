@@ -15,6 +15,47 @@
       "dns_hostname": "us-central.windscribe.com",
       "groups": [
         {
+          "id": 156,
+          "city": "Atlanta",
+          "nick": "Peachtree",
+          "pro": 0,
+          "gps": "33.75,-84.39",
+          "tz": "America/New_York",
+          "wg_pubkey": "ciOW8sri5RR+ulCmENWpg5TVUFPz1URqHRk9zEYrYHg=",
+          "wg_endpoint": "atl-156-wg.whiskergalaxy.com",
+          "ovpn_x509": "atl-156.windscribe.com",
+          "ping_ip": "67.213.215.11",
+          "ping_host": "http://us-central-131.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000",
+          "nodes": [
+            {
+              "ip": "67.213.215.13",
+              "ip2": "67.213.208.65",
+              "ip3": "67.213.208.66",
+              "hostname": "us-central-130.whiskergalaxy.com",
+              "weight": 1,
+              "health": 7
+            },
+            {
+              "ip": "67.213.214.255",
+              "ip2": "67.213.208.1",
+              "ip3": "67.213.208.2",
+              "hostname": "us-central-132.whiskergalaxy.com",
+              "weight": 1,
+              "health": 5
+            },
+            {
+              "ip": "67.213.215.11",
+              "ip2": "67.213.208.33",
+              "ip3": "67.213.208.34",
+              "hostname": "us-central-131.whiskergalaxy.com",
+              "weight": 1,
+              "health": 6
+            }
+          ],
+          "health": 6
+        },
+        {
           "id": 86,
           "city": "Dallas",
           "nick": "Ranch",
@@ -24,8 +65,8 @@
           "wg_pubkey": "pASG4FD9LwOfJukT/wYbUF10gD6v8DVuv5hrNbiOnHQ=",
           "wg_endpoint": "dfw-86-wg.whiskergalaxy.com",
           "ovpn_x509": "dfw-86.windscribe.com",
-          "ping_ip": "198.44.137.27",
-          "ping_host": "http://us-central-111.whiskergalaxy.com:6464/latency",
+          "ping_ip": "198.44.137.43",
+          "ping_host": "http://us-central-117.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         },
         {
@@ -38,8 +79,8 @@
           "wg_pubkey": "47tLjymDPpTIBerb+wn02/XNFABF4YDAGwOnijSoZmQ=",
           "wg_endpoint": "dfw-192-wg.whiskergalaxy.com",
           "ovpn_x509": "dfw-192.windscribe.com",
-          "ping_ip": "206.223.227.199",
-          "ping_host": "http://us-central-136.whiskergalaxy.com:6464/latency",
+          "ping_ip": "206.223.227.193",
+          "ping_host": "http://us-central-139.whiskergalaxy.com:6464/latency",
           "link_speed": "10000",
           "nodes": [
             {
@@ -48,7 +89,7 @@
               "ip3": "162.43.191.51",
               "hostname": "us-central-137.whiskergalaxy.com",
               "weight": 1,
-              "health": 4
+              "health": 3
             },
             {
               "ip": "206.223.227.193",
@@ -70,17 +111,17 @@
           "health": 3
         },
         {
-          "id": 371,
+          "id": 444,
           "city": "Kansas City",
-          "nick": "Glinda",
+          "nick": "Barbecue",
           "pro": 1,
           "gps": "39.10,-94.58",
           "tz": "America/Chicago",
-          "wg_pubkey": "0VAbqR6QprUwYMbgo1Xuel23UzzibC7OIxDJYAe3wx4=",
-          "wg_endpoint": "mci-371-wg.whiskergalaxy.com",
-          "ovpn_x509": "mci-371.windscribe.com",
-          "ping_ip": "74.80.181.146",
-          "ping_host": "http://us-central-098.whiskergalaxy.com:6464/latency",
+          "wg_pubkey": "ynzceFP425v6BFcnJA0F8qhtclaUAa5RTpSy7jFonTg=",
+          "wg_endpoint": "mci-444-wg.whiskergalaxy.com",
+          "ovpn_x509": "mci-444.windscribe.com",
+          "ping_ip": "198.44.141.27",
+          "ping_host": "http://us-central-119.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         },
         {
@@ -98,45 +139,18 @@
           "link_speed": "10000"
         },
         {
-          "id": 156,
-          "city": "Atlanta",
-          "nick": "Peachtree",
-          "pro": 0,
-          "gps": "33.75,-84.39",
-          "tz": "America/New_York",
-          "wg_pubkey": "ciOW8sri5RR+ulCmENWpg5TVUFPz1URqHRk9zEYrYHg=",
-          "wg_endpoint": "atl-156-wg.whiskergalaxy.com",
-          "ovpn_x509": "atl-156.windscribe.com",
-          "ping_ip": "67.213.215.11",
-          "ping_host": "http://us-central-131.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000",
-          "nodes": [
-            {
-              "ip": "67.213.215.13",
-              "ip2": "67.213.208.65",
-              "ip3": "67.213.208.66",
-              "hostname": "us-central-130.whiskergalaxy.com",
-              "weight": 1,
-              "health": 5
-            },
-            {
-              "ip": "67.213.214.255",
-              "ip2": "67.213.208.1",
-              "ip3": "67.213.208.2",
-              "hostname": "us-central-132.whiskergalaxy.com",
-              "weight": 1,
-              "health": 6
-            },
-            {
-              "ip": "67.213.215.11",
-              "ip2": "67.213.208.33",
-              "ip3": "67.213.208.34",
-              "hostname": "us-central-131.whiskergalaxy.com",
-              "weight": 1,
-              "health": 5
-            }
-          ],
-          "health": 5
+          "id": 452,
+          "city": "Denver",
+          "nick": "Nuggets",
+          "pro": 1,
+          "gps": "39.74,-104.86",
+          "tz": "America/Denver",
+          "wg_pubkey": "hsQ2uArA7Yhx/e/sYwKbh3L+n+tsZQFW/MM/d9LTmgU=",
+          "wg_endpoint": "den-452-wg.whiskergalaxy.com",
+          "ovpn_x509": "den-452.windscribe.com",
+          "ping_ip": "198.54.128.195",
+          "ping_host": "http://us-central-128.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
         },
         {
           "id": 109,
@@ -153,17 +167,31 @@
           "link_speed": "10000"
         },
         {
-          "id": 444,
-          "city": "Kansas City",
-          "nick": "Barbecue",
+          "id": 331,
+          "city": "Atlanta",
+          "nick": "Piedmont",
           "pro": 1,
-          "gps": "39.10,-94.58",
-          "tz": "America/Chicago",
-          "wg_pubkey": "ynzceFP425v6BFcnJA0F8qhtclaUAa5RTpSy7jFonTg=",
-          "wg_endpoint": "mci-444-wg.whiskergalaxy.com",
-          "ovpn_x509": "mci-444.windscribe.com",
-          "ping_ip": "198.44.141.27",
-          "ping_host": "http://us-central-119.whiskergalaxy.com:6464/latency",
+          "gps": "33.75,-84.39",
+          "tz": "America/New_York",
+          "wg_pubkey": "v8yTgxOMZjdZkCUoBVMUOiDBYgaNzQ9OfXc+uz2GUDc=",
+          "wg_endpoint": "atl-331-wg.whiskergalaxy.com",
+          "ovpn_x509": "atl-331.windscribe.com",
+          "ping_ip": "154.47.28.143",
+          "ping_host": "http://us-central-118.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 145,
+          "city": "Denver",
+          "nick": "Mile High",
+          "pro": 1,
+          "gps": "39.74,-104.99",
+          "tz": "America/Denver",
+          "wg_pubkey": "c31sdkhmVsucRVa6nSNNSiZ2UHHLdUhq5gvfdJxSnFw=",
+          "wg_endpoint": "den-145-wg.whiskergalaxy.com",
+          "ovpn_x509": "den-145.windscribe.com",
+          "ping_ip": "95.173.221.15",
+          "ping_host": "http://us-central-106.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         },
         {
@@ -181,45 +209,17 @@
           "link_speed": "10000"
         },
         {
-          "id": 331,
-          "city": "Atlanta",
-          "nick": "Piedmont",
+          "id": 371,
+          "city": "Kansas City",
+          "nick": "Glinda",
           "pro": 1,
-          "gps": "33.75,-84.39",
-          "tz": "America/New_York",
-          "wg_pubkey": "v8yTgxOMZjdZkCUoBVMUOiDBYgaNzQ9OfXc+uz2GUDc=",
-          "wg_endpoint": "atl-331-wg.whiskergalaxy.com",
-          "ovpn_x509": "atl-331.windscribe.com",
-          "ping_ip": "154.47.28.129",
-          "ping_host": "http://us-central-107.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
-          "id": 452,
-          "city": "Denver",
-          "nick": "Nuggets",
-          "pro": 1,
-          "gps": "39.74,-104.86",
-          "tz": "America/Denver",
-          "wg_pubkey": "hsQ2uArA7Yhx/e/sYwKbh3L+n+tsZQFW/MM/d9LTmgU=",
-          "wg_endpoint": "den-452-wg.whiskergalaxy.com",
-          "ovpn_x509": "den-452.windscribe.com",
-          "ping_ip": "198.54.128.195",
-          "ping_host": "http://us-central-128.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
-          "id": 145,
-          "city": "Denver",
-          "nick": "Mile High",
-          "pro": 1,
-          "gps": "39.74,-104.99",
-          "tz": "America/Denver",
-          "wg_pubkey": "c31sdkhmVsucRVa6nSNNSiZ2UHHLdUhq5gvfdJxSnFw=",
-          "wg_endpoint": "den-145-wg.whiskergalaxy.com",
-          "ovpn_x509": "den-145.windscribe.com",
-          "ping_ip": "95.173.221.15",
-          "ping_host": "http://us-central-106.whiskergalaxy.com:6464/latency",
+          "gps": "39.10,-94.58",
+          "tz": "America/Chicago",
+          "wg_pubkey": "0VAbqR6QprUwYMbgo1Xuel23UzzibC7OIxDJYAe3wx4=",
+          "wg_endpoint": "mci-371-wg.whiskergalaxy.com",
+          "ovpn_x509": "mci-371.windscribe.com",
+          "ping_ip": "74.80.181.131",
+          "ping_host": "http://us-central-097.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
@@ -239,6 +239,198 @@
       "dns_hostname": "us-east.windscribe.com",
       "groups": [
         {
+          "id": 468,
+          "city": "Tampa",
+          "nick": "Big Guava",
+          "pro": 1,
+          "gps": "27.96,-82.45",
+          "tz": "America/New_York",
+          "wg_pubkey": "JgjO+fPdzAvOSQ6TfYcFa0tSlVDdeyi35EqkIPzRjQw=",
+          "wg_endpoint": "tpa-468-wg.whiskergalaxy.com",
+          "ovpn_x509": "tpa-468.windscribe.com",
+          "ping_ip": "199.231.166.202",
+          "ping_host": "http://us-east-177.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
+        },
+        {
+          "id": 324,
+          "city": "Washington DC",
+          "nick": "Trade War",
+          "pro": 1,
+          "gps": "38.90,-77.02",
+          "tz": "America/New_York",
+          "wg_pubkey": "uZxQR1klZ1Ere9kA8Thp7CUgAlviSWXdYjagsNdunjM=",
+          "wg_endpoint": "was-324-wg.whiskergalaxy.com",
+          "ovpn_x509": "was-324.windscribe.com",
+          "ping_ip": "149.102.227.65",
+          "ping_host": "http://us-east-132.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 106,
+          "city": "New York",
+          "nick": "Empire",
+          "pro": 0,
+          "gps": "40.73,-73.94",
+          "tz": "America/New_York",
+          "wg_pubkey": "Tu8tlHPMbkXRANX3AF1Te+stynfOJS1mCtIOjiRToCg=",
+          "wg_endpoint": "jfk-106-wg.whiskergalaxy.com",
+          "ovpn_x509": "jfk-106.windscribe.com",
+          "ping_ip": "135.136.3.34",
+          "ping_host": "http://us-east-158.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000",
+          "nodes": [
+            {
+              "ip": "135.136.3.34",
+              "ip2": "135.136.3.35",
+              "ip3": "135.136.3.36",
+              "hostname": "us-east-158.whiskergalaxy.com",
+              "weight": 1,
+              "health": 5
+            },
+            {
+              "ip": "135.136.3.98",
+              "ip2": "135.136.3.99",
+              "ip3": "135.136.3.100",
+              "hostname": "us-east-159.whiskergalaxy.com",
+              "weight": 1,
+              "health": 4
+            }
+          ],
+          "health": 5
+        },
+        {
+          "id": 348,
+          "city": "Philadelphia",
+          "nick": "Fresh Prince",
+          "pro": 1,
+          "gps": "39.95,-75.17",
+          "tz": "America/New_York",
+          "wg_pubkey": "oZSSjyLgPsssnrWYUZYiU5x1wF4wuuENQUoY5S4oeHc=",
+          "wg_endpoint": "phl-348-wg.whiskergalaxy.com",
+          "ovpn_x509": "phl-348.windscribe.com",
+          "ping_ip": "23.148.145.199",
+          "ping_host": "http://us-east-136.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
+        },
+        {
+          "id": 459,
+          "city": "Ashburn",
+          "nick": "Cloud City",
+          "pro": 1,
+          "gps": "39.04,-77.49",
+          "tz": "Eastern Standard Time",
+          "wg_pubkey": "f4/Ljfs3EOb3gTS/7ajYCMxOtjgosJXjxtf77k6Pdwo=",
+          "wg_endpoint": "iad-459-wg.whiskergalaxy.com",
+          "ovpn_x509": "iad-459.windscribe.com",
+          "ping_ip": "198.44.135.11",
+          "ping_host": "http://us-east-150.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 303,
+          "city": "Charlotte",
+          "nick": "Moonshine Run",
+          "pro": 1,
+          "gps": "35.23,-80.84",
+          "tz": "America/New_York",
+          "wg_pubkey": "FUPy5mxwpV0z7j5d1Pqb37wHcyuqcCKSRDTBu/8kezc=",
+          "wg_endpoint": "clt-303-wg.whiskergalaxy.com",
+          "ovpn_x509": "clt-303.windscribe.com",
+          "ping_ip": "104.249.59.229",
+          "ping_host": "http://us-east-161.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 330,
+          "city": "New York",
+          "nick": "Insomnia",
+          "pro": 1,
+          "gps": "40.73,-73.94",
+          "tz": "America/New_York",
+          "wg_pubkey": "B8Oyz2mKiUvv3iMiKt7/rhLccCB3KcAYnCj5+fO4hHM=",
+          "wg_endpoint": "jfk-330-wg.whiskergalaxy.com",
+          "ovpn_x509": "jfk-330.windscribe.com",
+          "ping_ip": "198.44.159.19",
+          "ping_host": "http://us-east-142.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 298,
+          "city": "Boston",
+          "nick": "MIT",
+          "pro": 1,
+          "gps": "42.36,-71.06",
+          "tz": "America/New_York",
+          "wg_pubkey": "5yBJlSpfxd8Hq4+X4ZD60MYc6tosaMh5inQwA18XCCk=",
+          "wg_endpoint": "bos-298-wg.whiskergalaxy.com",
+          "ovpn_x509": "bos-298.windscribe.com",
+          "ping_ip": "199.217.105.226",
+          "ping_host": "http://us-east-051.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 140,
+          "city": "Miami",
+          "nick": "Vice",
+          "pro": 0,
+          "gps": "25.78,-80.18",
+          "tz": "America/New_York",
+          "wg_pubkey": "1S9LgDyVSo2X34ZG8ukQQ7vqL5RpmXszNe0SYNjiUws=",
+          "wg_endpoint": "mia-140-wg.whiskergalaxy.com",
+          "ovpn_x509": "mia-140.windscribe.com",
+          "ping_ip": "135.136.5.2",
+          "ping_host": "http://us-east-153.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000",
+          "nodes": [
+            {
+              "ip": "135.136.5.98",
+              "ip2": "135.136.5.99",
+              "ip3": "135.136.5.100",
+              "hostname": "us-east-162.whiskergalaxy.com",
+              "weight": 1,
+              "health": 3
+            },
+            {
+              "ip": "135.136.5.66",
+              "ip2": "135.136.5.67",
+              "ip3": "135.136.5.68",
+              "hostname": "us-east-155.whiskergalaxy.com",
+              "weight": 1,
+              "health": 4
+            }
+          ],
+          "health": 4
+        },
+        {
+          "id": 388,
+          "city": "South Bend",
+          "nick": "Hawkins",
+          "pro": 1,
+          "gps": "41.40,-86.15",
+          "tz": "America/Indiana/Indianapolis",
+          "wg_pubkey": "E2MkaH7nxlerMCZsZu/KTJOTb5Typp9A2DuOqzbdvTM=",
+          "wg_endpoint": "sbn-388-wg.whiskergalaxy.com",
+          "ovpn_x509": "sbn-388.windscribe.com",
+          "ping_ip": "23.189.168.146",
+          "ping_host": "http://us-east-113.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 408,
+          "city": "Boston",
+          "nick": "Harvard",
+          "pro": 1,
+          "gps": "42.36,-71.06",
+          "tz": "America/New_York",
+          "wg_pubkey": "kggnERjnDsc9j4BQR+vA4IHsCtJqO1pZtFiXcKESWzw=",
+          "wg_endpoint": "bos-408-wg.whiskergalaxy.com",
+          "ovpn_x509": "bos-408.windscribe.com",
+          "ping_ip": "62.93.176.91",
+          "ping_host": "http://us-east-143.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
           "id": 206,
           "city": "Miami",
           "nick": "Snow",
@@ -248,8 +440,8 @@
           "wg_pubkey": "7LiZu9B4qzVwl3jKRVs7ivx/BHi/jnSS/GWSuxEClgk=",
           "wg_endpoint": "mia-206-wg.whiskergalaxy.com",
           "ovpn_x509": "mia-206.windscribe.com",
-          "ping_ip": "64.34.91.201",
-          "ping_host": "http://us-east-165.whiskergalaxy.com:6464/latency",
+          "ping_ip": "64.34.91.51",
+          "ping_host": "http://us-east-164.whiskergalaxy.com:6464/latency",
           "link_speed": "10000",
           "nodes": [
             {
@@ -272,17 +464,73 @@
           "health": 3
         },
         {
-          "id": 408,
-          "city": "Boston",
-          "nick": "Harvard",
+          "id": 63,
+          "city": "Chicago",
+          "nick": "Cub",
           "pro": 1,
-          "gps": "42.36,-71.06",
+          "gps": "41.88,-87.63",
+          "tz": "America/Chicago",
+          "wg_pubkey": "6O1bKP+apj/JT/aV++aODc1+EHlPO+c0xGyfKXE+k14=",
+          "wg_endpoint": "ord-63-wg.whiskergalaxy.com",
+          "ovpn_x509": "ord-63.windscribe.com",
+          "ping_ip": "68.235.56.51",
+          "ping_host": "http://us-east-133.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 460,
+          "city": "Raleigh",
+          "nick": "Belt Buckle",
+          "pro": 1,
+          "gps": "35.78,-78.64",
+          "tz": "Eastern Standard Time",
+          "wg_pubkey": "8o/f8mjn5xUpnXSAhqqc+RTdN9fynknmWYnXcUpJJTY=",
+          "wg_endpoint": "rdu-460-wg.whiskergalaxy.com",
+          "ovpn_x509": "rdu-460.windscribe.com",
+          "ping_ip": "198.54.130.243",
+          "ping_host": "http://us-east-152.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 413,
+          "city": "Philadelphia",
+          "nick": "Sunny",
+          "pro": 1,
+          "gps": "39.95,-75.17",
           "tz": "America/New_York",
-          "wg_pubkey": "kggnERjnDsc9j4BQR+vA4IHsCtJqO1pZtFiXcKESWzw=",
-          "wg_endpoint": "bos-408-wg.whiskergalaxy.com",
-          "ovpn_x509": "bos-408.windscribe.com",
-          "ping_ip": "62.93.176.91",
-          "ping_host": "http://us-east-143.whiskergalaxy.com:6464/latency",
+          "wg_pubkey": "1Fy3ynW7Y8y0VTKH/J2IP5ETlXF/ATneNmZDhydyvxA=",
+          "wg_endpoint": "phl-413-wg.whiskergalaxy.com",
+          "ovpn_x509": "phl-413.windscribe.com",
+          "ping_ip": "23.148.146.178",
+          "ping_host": "http://us-east-121.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
+        },
+        {
+          "id": 349,
+          "city": "Tampa",
+          "nick": "Cuban Sandwich",
+          "pro": 1,
+          "gps": "27.96,-82.45",
+          "tz": "America/New_York",
+          "wg_pubkey": "jqf7HHmkBdzk1kkGLD20O/EzLHSFV2Bc7z4MeHcP7iA=",
+          "wg_endpoint": "tpa-349-wg.whiskergalaxy.com",
+          "ovpn_x509": "tpa-349.windscribe.com",
+          "ping_ip": "38.95.13.130",
+          "ping_host": "http://us-east-110.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
+        },
+        {
+          "id": 146,
+          "city": "Cleveland",
+          "nick": "King James",
+          "pro": 1,
+          "gps": "41.51,-81.68",
+          "tz": "America/New_York",
+          "wg_pubkey": "Ptieqs4YovU0Jxgu9d7rSTapQPp7G+8GYWiwaf8jPlA=",
+          "wg_endpoint": "cle-146-wg.whiskergalaxy.com",
+          "ovpn_x509": "cle-146.windscribe.com",
+          "ping_ip": "67.214.181.50",
+          "ping_host": "http://us-east-175.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         },
         {
@@ -300,109 +548,6 @@
           "link_speed": "1000"
         },
         {
-          "id": 181,
-          "city": "New Jersey",
-          "nick": "Situation",
-          "pro": 1,
-          "gps": "39.83,-74.87",
-          "tz": "America/New_York",
-          "wg_pubkey": "cHmeYFIKgOrUDgfx6xOTjPUnnUtUapeLa2xA2XHvBFc=",
-          "wg_endpoint": "ewr-181-wg.whiskergalaxy.com",
-          "ovpn_x509": "ewr-181.windscribe.com",
-          "ping_ip": "194.59.251.130",
-          "ping_host": "http://us-east-148.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
-          "id": 106,
-          "city": "New York",
-          "nick": "Empire",
-          "pro": 0,
-          "gps": "40.73,-73.94",
-          "tz": "America/New_York",
-          "wg_pubkey": "Tu8tlHPMbkXRANX3AF1Te+stynfOJS1mCtIOjiRToCg=",
-          "wg_endpoint": "jfk-106-wg.whiskergalaxy.com",
-          "ovpn_x509": "jfk-106.windscribe.com",
-          "ping_ip": "135.136.3.2",
-          "ping_host": "http://us-east-157.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000",
-          "nodes": [
-            {
-              "ip": "135.136.3.34",
-              "ip2": "135.136.3.35",
-              "ip3": "135.136.3.36",
-              "hostname": "us-east-158.whiskergalaxy.com",
-              "weight": 1,
-              "health": 5
-            },
-            {
-              "ip": "135.136.3.98",
-              "ip2": "135.136.3.99",
-              "ip3": "135.136.3.100",
-              "hostname": "us-east-159.whiskergalaxy.com",
-              "weight": 1,
-              "health": 5
-            }
-          ],
-          "health": 5
-        },
-        {
-          "id": 63,
-          "city": "Chicago",
-          "nick": "Cub",
-          "pro": 1,
-          "gps": "41.88,-87.63",
-          "tz": "America/Chicago",
-          "wg_pubkey": "6O1bKP+apj/JT/aV++aODc1+EHlPO+c0xGyfKXE+k14=",
-          "wg_endpoint": "ord-63-wg.whiskergalaxy.com",
-          "ovpn_x509": "ord-63.windscribe.com",
-          "ping_ip": "68.235.56.59",
-          "ping_host": "http://us-east-134.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
-          "id": 468,
-          "city": "Tampa",
-          "nick": "Big Guava",
-          "pro": 1,
-          "gps": "27.96,-82.45",
-          "tz": "America/New_York",
-          "wg_pubkey": "JgjO+fPdzAvOSQ6TfYcFa0tSlVDdeyi35EqkIPzRjQw=",
-          "wg_endpoint": "tpa-468-wg.whiskergalaxy.com",
-          "ovpn_x509": "tpa-468.windscribe.com",
-          "ping_ip": "206.51.226.162",
-          "ping_host": "http://us-east-178.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
-        },
-        {
-          "id": 330,
-          "city": "New York",
-          "nick": "Insomnia",
-          "pro": 1,
-          "gps": "40.73,-73.94",
-          "tz": "America/New_York",
-          "wg_pubkey": "B8Oyz2mKiUvv3iMiKt7/rhLccCB3KcAYnCj5+fO4hHM=",
-          "wg_endpoint": "jfk-330-wg.whiskergalaxy.com",
-          "ovpn_x509": "jfk-330.windscribe.com",
-          "ping_ip": "198.44.159.19",
-          "ping_host": "http://us-east-142.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
-          "id": 146,
-          "city": "Cleveland",
-          "nick": "King James",
-          "pro": 1,
-          "gps": "41.51,-81.68",
-          "tz": "America/New_York",
-          "wg_pubkey": "Ptieqs4YovU0Jxgu9d7rSTapQPp7G+8GYWiwaf8jPlA=",
-          "wg_endpoint": "cle-146-wg.whiskergalaxy.com",
-          "ovpn_x509": "cle-146.windscribe.com",
-          "ping_ip": "67.214.181.50",
-          "ping_host": "http://us-east-175.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
           "id": 326,
           "city": "Miami",
           "nick": "Florida Man",
@@ -414,48 +559,6 @@
           "ovpn_x509": "mia-326.windscribe.com",
           "ping_ip": "149.34.248.65",
           "ping_host": "http://us-east-129.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
-          "id": 303,
-          "city": "Charlotte",
-          "nick": "Moonshine Run",
-          "pro": 1,
-          "gps": "35.23,-80.84",
-          "tz": "America/New_York",
-          "wg_pubkey": "FUPy5mxwpV0z7j5d1Pqb37wHcyuqcCKSRDTBu/8kezc=",
-          "wg_endpoint": "clt-303-wg.whiskergalaxy.com",
-          "ovpn_x509": "clt-303.windscribe.com",
-          "ping_ip": "104.249.59.229",
-          "ping_host": "http://us-east-161.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
-          "id": 323,
-          "city": "Chicago",
-          "nick": "Wrigley",
-          "pro": 1,
-          "gps": "41.88,-87.63",
-          "tz": "America/Chicago",
-          "wg_pubkey": "5LYbbr320XMoXPrLsZex+2cDAMUOnzX5Htpcgb4Uc1c=",
-          "wg_endpoint": "ord-323-wg.whiskergalaxy.com",
-          "ovpn_x509": "ord-323.windscribe.com",
-          "ping_ip": "154.47.25.65",
-          "ping_host": "http://us-east-128.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
-          "id": 388,
-          "city": "South Bend",
-          "nick": "Hawkins",
-          "pro": 1,
-          "gps": "41.40,-86.15",
-          "tz": "America/Indiana/Indianapolis",
-          "wg_pubkey": "E2MkaH7nxlerMCZsZu/KTJOTb5Typp9A2DuOqzbdvTM=",
-          "wg_endpoint": "sbn-388-wg.whiskergalaxy.com",
-          "ovpn_x509": "sbn-388.windscribe.com",
-          "ping_ip": "23.189.168.146",
-          "ping_host": "http://us-east-113.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         },
         {
@@ -486,65 +589,37 @@
               "ip3": "149.102.226.112",
               "hostname": "us-east-147.whiskergalaxy.com",
               "weight": 1,
-              "health": 3
+              "health": 4
             }
           ],
-          "health": 3
+          "health": 4
         },
         {
-          "id": 459,
-          "city": "Ashburn",
-          "nick": "Cloud City",
+          "id": 323,
+          "city": "Chicago",
+          "nick": "Wrigley",
           "pro": 1,
-          "gps": "39.04,-77.49",
-          "tz": "Eastern Standard Time",
-          "wg_pubkey": "f4/Ljfs3EOb3gTS/7ajYCMxOtjgosJXjxtf77k6Pdwo=",
-          "wg_endpoint": "iad-459-wg.whiskergalaxy.com",
-          "ovpn_x509": "iad-459.windscribe.com",
-          "ping_ip": "198.44.135.11",
-          "ping_host": "http://us-east-150.whiskergalaxy.com:6464/latency",
+          "gps": "41.88,-87.63",
+          "tz": "America/Chicago",
+          "wg_pubkey": "5LYbbr320XMoXPrLsZex+2cDAMUOnzX5Htpcgb4Uc1c=",
+          "wg_endpoint": "ord-323-wg.whiskergalaxy.com",
+          "ovpn_x509": "ord-323.windscribe.com",
+          "ping_ip": "154.47.25.65",
+          "ping_host": "http://us-east-128.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         },
         {
-          "id": 413,
-          "city": "Philadelphia",
-          "nick": "Sunny",
+          "id": 181,
+          "city": "New Jersey",
+          "nick": "Situation",
           "pro": 1,
-          "gps": "39.95,-75.17",
+          "gps": "39.83,-74.87",
           "tz": "America/New_York",
-          "wg_pubkey": "1Fy3ynW7Y8y0VTKH/J2IP5ETlXF/ATneNmZDhydyvxA=",
-          "wg_endpoint": "phl-413-wg.whiskergalaxy.com",
-          "ovpn_x509": "phl-413.windscribe.com",
-          "ping_ip": "23.148.146.178",
-          "ping_host": "http://us-east-121.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
-        },
-        {
-          "id": 348,
-          "city": "Philadelphia",
-          "nick": "Fresh Prince",
-          "pro": 1,
-          "gps": "39.95,-75.17",
-          "tz": "America/New_York",
-          "wg_pubkey": "oZSSjyLgPsssnrWYUZYiU5x1wF4wuuENQUoY5S4oeHc=",
-          "wg_endpoint": "phl-348-wg.whiskergalaxy.com",
-          "ovpn_x509": "phl-348.windscribe.com",
-          "ping_ip": "23.148.145.199",
-          "ping_host": "http://us-east-136.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
-        },
-        {
-          "id": 368,
-          "city": "Detroit",
-          "nick": "Coney Dog",
-          "pro": 1,
-          "gps": "42.33,-83.05",
-          "tz": "America/Detroit",
-          "wg_pubkey": "IMHoX/bhNghQVQB0pYKi14pwJhkOcLevpiMa7Khaz2I=",
-          "wg_endpoint": "dtw-368-wg.whiskergalaxy.com",
-          "ovpn_x509": "dtw-368.windscribe.com",
-          "ping_ip": "104.244.210.50",
-          "ping_host": "http://us-east-079.whiskergalaxy.com:6464/latency",
+          "wg_pubkey": "cHmeYFIKgOrUDgfx6xOTjPUnnUtUapeLa2xA2XHvBFc=",
+          "wg_endpoint": "ewr-181-wg.whiskergalaxy.com",
+          "ovpn_x509": "ewr-181.windscribe.com",
+          "ping_ip": "194.59.251.130",
+          "ping_host": "http://us-east-148.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         },
         {
@@ -562,93 +637,18 @@
           "link_speed": "10000"
         },
         {
-          "id": 140,
-          "city": "Miami",
-          "nick": "Vice",
-          "pro": 0,
-          "gps": "25.78,-80.18",
-          "tz": "America/New_York",
-          "wg_pubkey": "1S9LgDyVSo2X34ZG8ukQQ7vqL5RpmXszNe0SYNjiUws=",
-          "wg_endpoint": "mia-140-wg.whiskergalaxy.com",
-          "ovpn_x509": "mia-140.windscribe.com",
-          "ping_ip": "135.136.5.2",
-          "ping_host": "http://us-east-153.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000",
-          "nodes": [
-            {
-              "ip": "135.136.5.98",
-              "ip2": "135.136.5.99",
-              "ip3": "135.136.5.100",
-              "hostname": "us-east-162.whiskergalaxy.com",
-              "weight": 1,
-              "health": 4
-            },
-            {
-              "ip": "135.136.5.66",
-              "ip2": "135.136.5.67",
-              "ip3": "135.136.5.68",
-              "hostname": "us-east-155.whiskergalaxy.com",
-              "weight": 1,
-              "health": 3
-            }
-          ],
-          "health": 4
-        },
-        {
-          "id": 324,
-          "city": "Washington DC",
-          "nick": "Trade War",
+          "id": 368,
+          "city": "Detroit",
+          "nick": "Coney Dog",
           "pro": 1,
-          "gps": "38.90,-77.02",
-          "tz": "America/New_York",
-          "wg_pubkey": "uZxQR1klZ1Ere9kA8Thp7CUgAlviSWXdYjagsNdunjM=",
-          "wg_endpoint": "was-324-wg.whiskergalaxy.com",
-          "ovpn_x509": "was-324.windscribe.com",
-          "ping_ip": "149.102.227.77",
-          "ping_host": "http://us-east-131.whiskergalaxy.com:6464/latency",
+          "gps": "42.33,-83.05",
+          "tz": "America/Detroit",
+          "wg_pubkey": "IMHoX/bhNghQVQB0pYKi14pwJhkOcLevpiMa7Khaz2I=",
+          "wg_endpoint": "dtw-368-wg.whiskergalaxy.com",
+          "ovpn_x509": "dtw-368.windscribe.com",
+          "ping_ip": "104.244.210.50",
+          "ping_host": "http://us-east-079.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
-        },
-        {
-          "id": 298,
-          "city": "Boston",
-          "nick": "MIT",
-          "pro": 1,
-          "gps": "42.36,-71.06",
-          "tz": "America/New_York",
-          "wg_pubkey": "5yBJlSpfxd8Hq4+X4ZD60MYc6tosaMh5inQwA18XCCk=",
-          "wg_endpoint": "bos-298-wg.whiskergalaxy.com",
-          "ovpn_x509": "bos-298.windscribe.com",
-          "ping_ip": "192.34.83.226",
-          "ping_host": "http://us-east-123.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
-          "id": 460,
-          "city": "Raleigh",
-          "nick": "Belt Buckle",
-          "pro": 1,
-          "gps": "35.78,-78.64",
-          "tz": "Eastern Standard Time",
-          "wg_pubkey": "8o/f8mjn5xUpnXSAhqqc+RTdN9fynknmWYnXcUpJJTY=",
-          "wg_endpoint": "rdu-460-wg.whiskergalaxy.com",
-          "ovpn_x509": "rdu-460.windscribe.com",
-          "ping_ip": "198.54.130.243",
-          "ping_host": "http://us-east-152.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
-          "id": 349,
-          "city": "Tampa",
-          "nick": "Cuban Sandwich",
-          "pro": 1,
-          "gps": "27.96,-82.45",
-          "tz": "America/New_York",
-          "wg_pubkey": "jqf7HHmkBdzk1kkGLD20O/EzLHSFV2Bc7z4MeHcP7iA=",
-          "wg_endpoint": "tpa-349-wg.whiskergalaxy.com",
-          "ovpn_x509": "tpa-349.windscribe.com",
-          "ping_ip": "38.95.13.130",
-          "ping_host": "http://us-east-110.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
         }
       ]
     },
@@ -667,18 +667,76 @@
       "dns_hostname": "us-west.windscribe.com",
       "groups": [
         {
-          "id": 302,
-          "city": "Bend",
-          "nick": "Oregon Trail",
+          "id": 183,
+          "city": "Las Vegas",
+          "nick": "Casino",
           "pro": 1,
-          "gps": "44.06,-121.32",
+          "gps": "36.11,-115.17",
           "tz": "America/Los_Angeles",
-          "wg_pubkey": "oIt9F8IfWqCvSQACrDcmfLPFrhn+RtG+Mr9/sd4VSSU=",
-          "wg_endpoint": "pdx-302-wg.whiskergalaxy.com",
-          "ovpn_x509": "pdx-302.windscribe.com",
-          "ping_ip": "198.37.119.81",
-          "ping_host": "http://us-west-097.whiskergalaxy.com:6464/latency",
+          "wg_pubkey": "XF69enunWI6bbHHwgRbE/jAvuM6plb4kyGcObYKvLVc=",
+          "wg_endpoint": "las-183-wg.whiskergalaxy.com",
+          "ovpn_x509": "las-183.windscribe.com",
+          "ping_ip": "82.102.31.146",
+          "ping_host": "http://us-west-076.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
+        },
+        {
+          "id": 290,
+          "city": "Seattle",
+          "nick": "Cobain",
+          "pro": 0,
+          "gps": "47.61,-122.33",
+          "tz": "America/Los_Angeles",
+          "wg_pubkey": "89DUtbYYyXcAktaB2cnCVA/YiZQEddYHuOz2K0vBAn4=",
+          "wg_endpoint": "sea-290-wg.whiskergalaxy.com",
+          "ovpn_x509": "sea-290.windscribe.com",
+          "ping_ip": "198.54.131.219",
+          "ping_host": "http://us-west-083.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000",
+          "nodes": [
+            {
+              "ip": "198.54.131.211",
+              "ip2": "198.54.131.212",
+              "ip3": "198.54.131.213",
+              "hostname": "us-west-084.whiskergalaxy.com",
+              "weight": 1,
+              "health": 4
+            }
+          ],
+          "health": 4
+        },
+        {
+          "id": 107,
+          "city": "Los Angeles",
+          "nick": "Dogg",
+          "pro": 0,
+          "gps": "34.05,-118.24",
+          "tz": "America/Los_Angeles",
+          "wg_pubkey": "fvmyuUJF8JvjzIts5bROwwZQ0zkSB7lk/q8E4G3+F20=",
+          "wg_endpoint": "lax-107-wg.whiskergalaxy.com",
+          "ovpn_x509": "lax-107.windscribe.com",
+          "ping_ip": "38.95.111.194",
+          "ping_host": "http://us-west-092.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000",
+          "nodes": [
+            {
+              "ip": "38.95.111.162",
+              "ip2": "38.95.111.163",
+              "ip3": "38.95.111.164",
+              "hostname": "us-west-095.whiskergalaxy.com",
+              "weight": 1,
+              "health": 5
+            },
+            {
+              "ip": "38.95.111.130",
+              "ip2": "38.95.111.131",
+              "ip3": "38.95.111.132",
+              "hostname": "us-west-094.whiskergalaxy.com",
+              "weight": 1,
+              "health": 8
+            }
+          ],
+          "health": 7
         },
         {
           "id": 337,
@@ -709,106 +767,6 @@
           "link_speed": "10000"
         },
         {
-          "id": 290,
-          "city": "Seattle",
-          "nick": "Cobain",
-          "pro": 0,
-          "gps": "47.61,-122.33",
-          "tz": "America/Los_Angeles",
-          "wg_pubkey": "89DUtbYYyXcAktaB2cnCVA/YiZQEddYHuOz2K0vBAn4=",
-          "wg_endpoint": "sea-290-wg.whiskergalaxy.com",
-          "ovpn_x509": "sea-290.windscribe.com",
-          "ping_ip": "198.54.131.203",
-          "ping_host": "http://us-west-082.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000",
-          "nodes": [
-            {
-              "ip": "198.54.131.211",
-              "ip2": "198.54.131.212",
-              "ip3": "198.54.131.213",
-              "hostname": "us-west-084.whiskergalaxy.com",
-              "weight": 1,
-              "health": 4
-            }
-          ],
-          "health": 4
-        },
-        {
-          "id": 221,
-          "city": "Seattle",
-          "nick": "Cornell",
-          "pro": 1,
-          "gps": "47.61,-122.33",
-          "tz": "America/Los_Angeles",
-          "wg_pubkey": "mRksyUF7wDK/8uBoPoEujp+yoUhjhq0N2LnNJFJnmiE=",
-          "wg_endpoint": "sea-221-wg.whiskergalaxy.com",
-          "ovpn_x509": "sea-221.windscribe.com",
-          "ping_ip": "198.12.116.194",
-          "ping_host": "http://us-west-062.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
-        },
-        {
-          "id": 183,
-          "city": "Las Vegas",
-          "nick": "Casino",
-          "pro": 1,
-          "gps": "36.11,-115.17",
-          "tz": "America/Los_Angeles",
-          "wg_pubkey": "XF69enunWI6bbHHwgRbE/jAvuM6plb4kyGcObYKvLVc=",
-          "wg_endpoint": "las-183-wg.whiskergalaxy.com",
-          "ovpn_x509": "las-183.windscribe.com",
-          "ping_ip": "37.120.147.146",
-          "ping_host": "http://us-west-075.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
-          "id": 107,
-          "city": "Los Angeles",
-          "nick": "Dogg",
-          "pro": 0,
-          "gps": "34.05,-118.24",
-          "tz": "America/Los_Angeles",
-          "wg_pubkey": "fvmyuUJF8JvjzIts5bROwwZQ0zkSB7lk/q8E4G3+F20=",
-          "wg_endpoint": "lax-107-wg.whiskergalaxy.com",
-          "ovpn_x509": "lax-107.windscribe.com",
-          "ping_ip": "38.95.111.194",
-          "ping_host": "http://us-west-092.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000",
-          "nodes": [
-            {
-              "ip": "38.95.111.130",
-              "ip2": "38.95.111.131",
-              "ip3": "38.95.111.132",
-              "hostname": "us-west-094.whiskergalaxy.com",
-              "weight": 1,
-              "health": 8
-            },
-            {
-              "ip": "38.95.111.162",
-              "ip2": "38.95.111.163",
-              "ip3": "38.95.111.164",
-              "hostname": "us-west-095.whiskergalaxy.com",
-              "weight": 1,
-              "health": 5
-            }
-          ],
-          "health": 7
-        },
-        {
-          "id": 333,
-          "city": "Santa Clara",
-          "nick": "Vaporware",
-          "pro": 1,
-          "gps": "37.35,-121.96",
-          "tz": "America/Los_Angeles",
-          "wg_pubkey": "/oz2frQv99JveBgmTXW22QXIEulQURK79BW+ugk8fCE=",
-          "wg_endpoint": "sjc-333-wg.whiskergalaxy.com",
-          "ovpn_x509": "sjc-333.windscribe.com",
-          "ping_ip": "167.88.60.226",
-          "ping_host": "http://us-west-050.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
-        },
-        {
           "id": 442,
           "city": "Salt Lake City",
           "nick": "Missionary",
@@ -835,20 +793,6 @@
           "ping_ip": "107.6.254.50",
           "ping_host": "http://us-west-088.whiskergalaxy.com:6464/latency",
           "link_speed": "1000"
-        },
-        {
-          "id": 325,
-          "city": "Phoenix",
-          "nick": "Copper Cactus",
-          "pro": 1,
-          "gps": "33.45,-112.07",
-          "tz": "America/Phoenix",
-          "wg_pubkey": "ZXYlnCS0zJGhpsYDhCxs8pYXsB00yqxhagTBjRD002U=",
-          "wg_endpoint": "phx-325-wg.whiskergalaxy.com",
-          "ovpn_x509": "phx-325.windscribe.com",
-          "ping_ip": "198.54.133.227",
-          "ping_host": "http://us-west-080.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
         },
         {
           "id": 321,
@@ -879,6 +823,48 @@
           "link_speed": "10000"
         },
         {
+          "id": 333,
+          "city": "Santa Clara",
+          "nick": "Vaporware",
+          "pro": 1,
+          "gps": "37.35,-121.96",
+          "tz": "America/Los_Angeles",
+          "wg_pubkey": "/oz2frQv99JveBgmTXW22QXIEulQURK79BW+ugk8fCE=",
+          "wg_endpoint": "sjc-333-wg.whiskergalaxy.com",
+          "ovpn_x509": "sjc-333.windscribe.com",
+          "ping_ip": "167.88.60.226",
+          "ping_host": "http://us-west-050.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
+        },
+        {
+          "id": 221,
+          "city": "Seattle",
+          "nick": "Cornell",
+          "pro": 1,
+          "gps": "47.61,-122.33",
+          "tz": "America/Los_Angeles",
+          "wg_pubkey": "mRksyUF7wDK/8uBoPoEujp+yoUhjhq0N2LnNJFJnmiE=",
+          "wg_endpoint": "sea-221-wg.whiskergalaxy.com",
+          "ovpn_x509": "sea-221.windscribe.com",
+          "ping_ip": "198.12.116.194",
+          "ping_host": "http://us-west-062.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
+        },
+        {
+          "id": 302,
+          "city": "Bend",
+          "nick": "Oregon Trail",
+          "pro": 1,
+          "gps": "44.06,-121.32",
+          "tz": "America/Los_Angeles",
+          "wg_pubkey": "oIt9F8IfWqCvSQACrDcmfLPFrhn+RtG+Mr9/sd4VSSU=",
+          "wg_endpoint": "pdx-302-wg.whiskergalaxy.com",
+          "ovpn_x509": "pdx-302.windscribe.com",
+          "ping_ip": "155.254.22.45",
+          "ping_host": "http://us-west-096.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
           "id": 182,
           "city": "Seattle",
           "nick": "Hendrix",
@@ -890,6 +876,20 @@
           "ovpn_x509": "sea-182.windscribe.com",
           "ping_ip": "149.22.88.65",
           "ping_host": "http://us-west-077.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 325,
+          "city": "Phoenix",
+          "nick": "Copper Cactus",
+          "pro": 1,
+          "gps": "33.45,-112.07",
+          "tz": "America/Phoenix",
+          "wg_pubkey": "ZXYlnCS0zJGhpsYDhCxs8pYXsB00yqxhagTBjRD002U=",
+          "wg_endpoint": "phx-325-wg.whiskergalaxy.com",
+          "ovpn_x509": "phx-325.windscribe.com",
+          "ping_ip": "198.54.133.235",
+          "ping_host": "http://us-west-081.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
@@ -908,76 +908,18 @@
       "dns_hostname": "ca.windscribe.com",
       "groups": [
         {
-          "id": 72,
-          "city": "Toronto",
-          "nick": "The 6",
-          "pro": 0,
-          "gps": "43.64,-79.39",
-          "tz": "America/Toronto",
-          "wg_pubkey": "pKXBuReWe+HfrILovyFzIybA8AVAsFgfDUyo42tLT1g=",
-          "wg_endpoint": "yyz-72-wg.whiskergalaxy.com",
-          "ovpn_x509": "yyz-72.windscribe.com",
-          "ping_ip": "198.44.157.43",
-          "ping_host": "http://ca-038.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000",
-          "nodes": [
-            {
-              "ip": "198.44.157.43",
-              "ip2": "198.44.157.44",
-              "ip3": "198.44.157.45",
-              "hostname": "ca-038.whiskergalaxy.com",
-              "weight": 1,
-              "health": 4
-            }
-          ],
-          "health": 4
-        },
-        {
-          "id": 197,
-          "city": "Toronto",
-          "nick": "Comfort Zone",
-          "pro": 0,
-          "gps": "43.64,-79.39",
-          "tz": "America/Toronto",
-          "wg_pubkey": "U5s7Yy/2fCqlaFcI96dFKupqEVCn+BYF04LRLD1zOhg=",
-          "wg_endpoint": "yyz-197-wg.whiskergalaxy.com",
-          "ovpn_x509": "yyz-197.windscribe.com",
-          "ping_ip": "149.88.98.65",
-          "ping_host": "http://ca-056.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000",
-          "nodes": [
-            {
-              "ip": "149.88.98.161",
-              "ip2": "149.88.98.162",
-              "ip3": "149.88.98.163",
-              "hostname": "ca-058.whiskergalaxy.com",
-              "weight": 1,
-              "health": 3
-            },
-            {
-              "ip": "149.88.98.177",
-              "ip2": "149.88.98.178",
-              "ip3": "149.88.98.179",
-              "hostname": "ca-059.whiskergalaxy.com",
-              "weight": 1,
-              "health": 2
-            }
-          ],
-          "health": 3
-        },
-        {
-          "id": 386,
-          "city": "Halifax",
-          "nick": "Crosby",
+          "id": 316,
+          "city": "Montreal",
+          "nick": "Bagel Poutine",
           "pro": 1,
-          "gps": "44.46,-63.61",
-          "tz": "America/Halifax",
-          "wg_pubkey": "w262TI0UyIg9pFunMiekVURYUuT/z4qXRor2Z7VcOn4=",
-          "wg_endpoint": "yhz-386-wg.whiskergalaxy.com",
-          "ovpn_x509": "yhz-386.windscribe.com",
-          "ping_ip": "23.191.80.2",
-          "ping_host": "http://ca-021.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
+          "gps": "45.51,-73.56",
+          "tz": "America/Montreal",
+          "wg_pubkey": "DxBtB3enAlS3OtJ9+jFtrTmuiGs36aV6HyyjKcit71o=",
+          "wg_endpoint": "yul-316-wg.whiskergalaxy.com",
+          "ovpn_x509": "yul-316.windscribe.com",
+          "ping_ip": "84.20.16.97",
+          "ping_host": "http://ca-060.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
         },
         {
           "id": 359,
@@ -994,37 +936,95 @@
           "link_speed": "10000",
           "nodes": [
             {
-              "ip": "198.44.142.43",
-              "ip2": "198.44.142.44",
-              "ip3": "198.44.142.45",
-              "hostname": "ca-065.whiskergalaxy.com",
-              "weight": 1,
-              "health": 6
-            },
-            {
               "ip": "198.44.142.51",
               "ip2": "198.44.142.52",
               "ip3": "198.44.142.53",
               "hostname": "ca-067.whiskergalaxy.com",
               "weight": 1,
               "health": 5
+            },
+            {
+              "ip": "198.44.142.43",
+              "ip2": "198.44.142.44",
+              "ip3": "198.44.142.45",
+              "hostname": "ca-065.whiskergalaxy.com",
+              "weight": 1,
+              "health": 4
             }
           ],
-          "health": 6
+          "health": 5
         },
         {
-          "id": 316,
-          "city": "Montreal",
-          "nick": "Bagel Poutine",
+          "id": 72,
+          "city": "Toronto",
+          "nick": "The 6",
+          "pro": 0,
+          "gps": "43.64,-79.39",
+          "tz": "America/Toronto",
+          "wg_pubkey": "pKXBuReWe+HfrILovyFzIybA8AVAsFgfDUyo42tLT1g=",
+          "wg_endpoint": "yyz-72-wg.whiskergalaxy.com",
+          "ovpn_x509": "yyz-72.windscribe.com",
+          "ping_ip": "198.44.157.27",
+          "ping_host": "http://ca-025.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000",
+          "nodes": [
+            {
+              "ip": "198.44.157.43",
+              "ip2": "198.44.157.44",
+              "ip3": "198.44.157.45",
+              "hostname": "ca-038.whiskergalaxy.com",
+              "weight": 1,
+              "health": 3
+            }
+          ],
+          "health": 3
+        },
+        {
+          "id": 197,
+          "city": "Toronto",
+          "nick": "Comfort Zone",
+          "pro": 0,
+          "gps": "43.64,-79.39",
+          "tz": "America/Toronto",
+          "wg_pubkey": "U5s7Yy/2fCqlaFcI96dFKupqEVCn+BYF04LRLD1zOhg=",
+          "wg_endpoint": "yyz-197-wg.whiskergalaxy.com",
+          "ovpn_x509": "yyz-197.windscribe.com",
+          "ping_ip": "149.88.98.65",
+          "ping_host": "http://ca-056.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000",
+          "nodes": [
+            {
+              "ip": "149.88.98.177",
+              "ip2": "149.88.98.178",
+              "ip3": "149.88.98.179",
+              "hostname": "ca-059.whiskergalaxy.com",
+              "weight": 1,
+              "health": 2
+            },
+            {
+              "ip": "149.88.98.161",
+              "ip2": "149.88.98.162",
+              "ip3": "149.88.98.163",
+              "hostname": "ca-058.whiskergalaxy.com",
+              "weight": 1,
+              "health": 2
+            }
+          ],
+          "health": 2
+        },
+        {
+          "id": 386,
+          "city": "Halifax",
+          "nick": "Crosby",
           "pro": 1,
-          "gps": "45.51,-73.56",
-          "tz": "America/Montreal",
-          "wg_pubkey": "DxBtB3enAlS3OtJ9+jFtrTmuiGs36aV6HyyjKcit71o=",
-          "wg_endpoint": "yul-316-wg.whiskergalaxy.com",
-          "ovpn_x509": "yul-316.windscribe.com",
-          "ping_ip": "84.20.16.110",
-          "ping_host": "http://ca-062.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
+          "gps": "44.46,-63.61",
+          "tz": "America/Halifax",
+          "wg_pubkey": "w262TI0UyIg9pFunMiekVURYUuT/z4qXRor2Z7VcOn4=",
+          "wg_endpoint": "yhz-386-wg.whiskergalaxy.com",
+          "ovpn_x509": "yhz-386.windscribe.com",
+          "ping_ip": "23.191.80.2",
+          "ping_host": "http://ca-021.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
         }
       ]
     },
@@ -1042,20 +1042,6 @@
       "dns_hostname": "ca-west.windscribe.com",
       "groups": [
         {
-          "id": 465,
-          "city": "Winnipeg",
-          "nick": "The Forks",
-          "pro": 1,
-          "gps": "49.88,-97.15",
-          "tz": "Central Time",
-          "wg_pubkey": "0QrTM0QMACDCyokQPu6wSf98ZxzaXloFTigIS1vZaWs=",
-          "wg_endpoint": "ywg-465-wg.whiskergalaxy.com",
-          "ovpn_x509": "ywg-465.windscribe.com",
-          "ping_ip": "23.154.80.66",
-          "ping_host": "http://ca-west-025.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
-        },
-        {
           "id": 311,
           "city": "Vancouver",
           "nick": "Vansterdam",
@@ -1065,8 +1051,8 @@
           "wg_pubkey": "YxWQDjNmU41PJXtoobFek3Y6nhICSLgsqH+QKPO5AQ8=",
           "wg_endpoint": "yvr-311-wg.whiskergalaxy.com",
           "ovpn_x509": "yvr-311.windscribe.com",
-          "ping_ip": "84.20.25.129",
-          "ping_host": "http://ca-west-028.whiskergalaxy.com:6464/latency",
+          "ping_ip": "95.173.219.14",
+          "ping_host": "http://ca-west-029.whiskergalaxy.com:6464/latency",
           "link_speed": "10000",
           "nodes": [
             {
@@ -1075,7 +1061,7 @@
               "ip3": "95.173.219.3",
               "hostname": "ca-west-030.whiskergalaxy.com",
               "weight": 1,
-              "health": 2
+              "health": 3
             },
             {
               "ip": "95.173.219.14",
@@ -1086,21 +1072,7 @@
               "health": 2
             }
           ],
-          "health": 2
-        },
-        {
-          "id": 470,
-          "city": "Calgary",
-          "nick": "Saddledome",
-          "pro": 1,
-          "gps": "51.05,-114.09",
-          "tz": "America/Edmonton",
-          "wg_pubkey": "volqCOiaZMaBSJGC1Fos6vbEA18n16eFHPofislvYWo=",
-          "wg_endpoint": "yyc-470-wg.whiskergalaxy.com",
-          "ovpn_x509": "yyc-470.windscribe.com",
-          "ping_ip": "109.204.35.65",
-          "ping_host": "http://ca-west-031.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
+          "health": 3
         },
         {
           "id": 439,
@@ -1117,6 +1089,20 @@
           "link_speed": "1000"
         },
         {
+          "id": 470,
+          "city": "Calgary",
+          "nick": "Saddledome",
+          "pro": 1,
+          "gps": "51.05,-114.09",
+          "tz": "America/Edmonton",
+          "wg_pubkey": "volqCOiaZMaBSJGC1Fos6vbEA18n16eFHPofislvYWo=",
+          "wg_endpoint": "yyc-470-wg.whiskergalaxy.com",
+          "ovpn_x509": "yyc-470.windscribe.com",
+          "ping_ip": "109.204.35.65",
+          "ping_host": "http://ca-west-031.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
           "id": 124,
           "city": "Vancouver",
           "nick": "Stanley",
@@ -1129,6 +1115,20 @@
           "ping_ip": "167.88.50.2",
           "ping_host": "http://ca-west-021.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
+        },
+        {
+          "id": 465,
+          "city": "Winnipeg",
+          "nick": "The Forks",
+          "pro": 1,
+          "gps": "49.88,-97.15",
+          "tz": "Central Time",
+          "wg_pubkey": "0QrTM0QMACDCyokQPu6wSf98ZxzaXloFTigIS1vZaWs=",
+          "wg_endpoint": "ywg-465-wg.whiskergalaxy.com",
+          "ovpn_x509": "ywg-465.windscribe.com",
+          "ping_ip": "23.154.80.66",
+          "ping_host": "http://ca-west-025.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
         }
       ]
     },
@@ -1145,20 +1145,6 @@
       "loc_type": "normal",
       "groups": [
         {
-          "id": 87,
-          "city": "Vienna",
-          "nick": "Hofburg",
-          "pro": 1,
-          "gps": "48.21,16.36",
-          "tz": "Europe/Vienna",
-          "wg_pubkey": "TPJ0lv9z95UaBKA64lQYcpAsoYmmMxvX4cnMh3nHqgs=",
-          "wg_endpoint": "vie-87-wg.whiskergalaxy.com",
-          "ovpn_x509": "vie-87.windscribe.com",
-          "ping_ip": "146.70.244.2",
-          "ping_host": "http://at-007.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
           "id": 308,
           "city": "Vienna",
           "nick": "Couch of Freud",
@@ -1170,6 +1156,20 @@
           "ovpn_x509": "vie-308.windscribe.com",
           "ping_ip": "95.177.87.15",
           "ping_host": "http://at-009.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 87,
+          "city": "Vienna",
+          "nick": "Hofburg",
+          "pro": 1,
+          "gps": "48.21,16.36",
+          "tz": "Europe/Vienna",
+          "wg_pubkey": "TPJ0lv9z95UaBKA64lQYcpAsoYmmMxvX4cnMh3nHqgs=",
+          "wg_endpoint": "vie-87-wg.whiskergalaxy.com",
+          "ovpn_x509": "vie-87.windscribe.com",
+          "ping_ip": "146.70.244.18",
+          "ping_host": "http://at-006.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
@@ -1187,20 +1187,6 @@
       "loc_type": "normal",
       "groups": [
         {
-          "id": 99,
-          "city": "Brussels",
-          "nick": "Guildhouse",
-          "pro": 1,
-          "gps": "50.88,4.50",
-          "tz": "Europe/Brussels",
-          "wg_pubkey": "TA+nBx5qMBdyIiug4SHgbw30/GXrRZ2aUAH7MQHJwzc=",
-          "wg_endpoint": "bru-99-wg.whiskergalaxy.com",
-          "ovpn_x509": "bru-99.windscribe.com",
-          "ping_ip": "146.70.176.242",
-          "ping_host": "http://be-007.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
           "id": 431,
           "city": "Brussels",
           "nick": "Funfrites",
@@ -1212,6 +1198,20 @@
           "ovpn_x509": "bru-431.windscribe.com",
           "ping_ip": "79.127.224.97",
           "ping_host": "http://be-009.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 99,
+          "city": "Brussels",
+          "nick": "Guildhouse",
+          "pro": 1,
+          "gps": "50.88,4.50",
+          "tz": "Europe/Brussels",
+          "wg_pubkey": "TA+nBx5qMBdyIiug4SHgbw30/GXrRZ2aUAH7MQHJwzc=",
+          "wg_endpoint": "bru-99-wg.whiskergalaxy.com",
+          "ovpn_x509": "bru-99.windscribe.com",
+          "ping_ip": "146.70.176.242",
+          "ping_host": "http://be-007.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
@@ -1229,20 +1229,6 @@
       "loc_type": "normal",
       "groups": [
         {
-          "id": 100,
-          "city": "Sofia",
-          "nick": "Nevski",
-          "pro": 1,
-          "gps": "42.68,23.32",
-          "tz": "Europe/Sofia",
-          "wg_pubkey": "kDDue7viLOXcxayH/VWzI8EhqeeSHrwOSt3IF9rHIlI=",
-          "wg_endpoint": "sof-100-wg.whiskergalaxy.com",
-          "ovpn_x509": "sof-100.windscribe.com",
-          "ping_ip": "185.94.192.210",
-          "ping_host": "http://bg-005.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
           "id": 437,
           "city": "Sofia",
           "nick": "Vitoshka",
@@ -1254,6 +1240,20 @@
           "ovpn_x509": "sof-437.windscribe.com",
           "ping_ip": "169.150.237.1",
           "ping_host": "http://bg-006.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 100,
+          "city": "Sofia",
+          "nick": "Nevski",
+          "pro": 1,
+          "gps": "42.68,23.32",
+          "tz": "Europe/Sofia",
+          "wg_pubkey": "kDDue7viLOXcxayH/VWzI8EhqeeSHrwOSt3IF9rHIlI=",
+          "wg_endpoint": "sof-100-wg.whiskergalaxy.com",
+          "ovpn_x509": "sof-100.windscribe.com",
+          "ping_ip": "185.94.192.210",
+          "ping_host": "http://bg-005.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
@@ -1299,20 +1299,6 @@
       "loc_type": "normal",
       "groups": [
         {
-          "id": 320,
-          "city": "Nicosia",
-          "nick": "Blue Lagoon",
-          "pro": 1,
-          "gps": "35.16,33.36",
-          "tz": "Asia/Nicosia",
-          "wg_pubkey": "90fjr1sq0Hgv2l+DgMaaGQ009SDw7VxmzJwaYmclaFs=",
-          "wg_endpoint": "lca-320-wg.whiskergalaxy.com",
-          "ovpn_x509": "lca-320.windscribe.com",
-          "ping_ip": "46.199.75.105",
-          "ping_host": "http://cy-002.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
-        },
-        {
           "id": 432,
           "city": "Limassol",
           "nick": "Amathusia",
@@ -1322,8 +1308,22 @@
           "wg_pubkey": "gfWVc5/8iWdm7B2Svqh2Zno7rhNviz7sSjpLNI8/63E=",
           "wg_endpoint": "qli-432-wg.whiskergalaxy.com",
           "ovpn_x509": "qli-432.windscribe.com",
-          "ping_ip": "213.207.130.34",
-          "ping_host": "http://cy-006.whiskergalaxy.com:6464/latency",
+          "ping_ip": "213.207.132.2",
+          "ping_host": "http://cy-005.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
+        },
+        {
+          "id": 320,
+          "city": "Nicosia",
+          "nick": "Blue Lagoon",
+          "pro": 1,
+          "gps": "35.16,33.36",
+          "tz": "Asia/Nicosia",
+          "wg_pubkey": "90fjr1sq0Hgv2l+DgMaaGQ009SDw7VxmzJwaYmclaFs=",
+          "wg_endpoint": "lca-320-wg.whiskergalaxy.com",
+          "ovpn_x509": "lca-320.windscribe.com",
+          "ping_ip": "46.199.75.100",
+          "ping_host": "http://cy-003.whiskergalaxy.com:6464/latency",
           "link_speed": "1000"
         }
       ]
@@ -1341,20 +1341,6 @@
       "loc_type": "normal",
       "groups": [
         {
-          "id": 338,
-          "city": "Prague",
-          "nick": "Vltava",
-          "pro": 1,
-          "gps": "50.09,14.42",
-          "tz": "Europe/Prague",
-          "wg_pubkey": "dAaOzl6DBAuFWC85UJUY378WwEHUoNqbE5lJMDfNamo=",
-          "wg_endpoint": "prg-338-wg.whiskergalaxy.com",
-          "ovpn_x509": "prg-338.windscribe.com",
-          "ping_ip": "152.233.16.174",
-          "ping_host": "http://cz-010.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
           "id": 88,
           "city": "Prague",
           "nick": "Staromak",
@@ -1366,6 +1352,20 @@
           "ovpn_x509": "prg-88.windscribe.com",
           "ping_ip": "185.216.35.66",
           "ping_host": "http://cz-007.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 338,
+          "city": "Prague",
+          "nick": "Vltava",
+          "pro": 1,
+          "gps": "50.09,14.42",
+          "tz": "Europe/Prague",
+          "wg_pubkey": "dAaOzl6DBAuFWC85UJUY378WwEHUoNqbE5lJMDfNamo=",
+          "wg_endpoint": "prg-338-wg.whiskergalaxy.com",
+          "ovpn_x509": "prg-338.windscribe.com",
+          "ping_ip": "152.233.16.161",
+          "ping_host": "http://cz-009.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
@@ -1383,20 +1383,6 @@
       "loc_type": "normal",
       "groups": [
         {
-          "id": 153,
-          "city": "Copenhagen",
-          "nick": "LEGO",
-          "pro": 1,
-          "gps": "55.68,12.57",
-          "tz": "Europe/Copenhagen",
-          "wg_pubkey": "QgQ3dPssF5IGZczLNP1KKbkohpIu/GCYBdi6ecuoqwU=",
-          "wg_endpoint": "cph-153-wg.whiskergalaxy.com",
-          "ovpn_x509": "cph-153.windscribe.com",
-          "ping_ip": "185.245.84.50",
-          "ping_host": "http://dk-006.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
           "id": 429,
           "city": "Copenhagen",
           "nick": "Hyggenhagen",
@@ -1408,6 +1394,20 @@
           "ovpn_x509": "cph-429.windscribe.com",
           "ping_ip": "109.61.85.33",
           "ping_host": "http://dk-007.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 153,
+          "city": "Copenhagen",
+          "nick": "LEGO",
+          "pro": 1,
+          "gps": "55.68,12.57",
+          "tz": "Europe/Copenhagen",
+          "wg_pubkey": "QgQ3dPssF5IGZczLNP1KKbkohpIu/GCYBdi6ecuoqwU=",
+          "wg_endpoint": "cph-153-wg.whiskergalaxy.com",
+          "ovpn_x509": "cph-153.windscribe.com",
+          "ping_ip": "185.245.84.50",
+          "ping_host": "http://dk-006.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
@@ -1434,8 +1434,8 @@
           "wg_pubkey": "FoZuoiJqIy/0h7Jv+7Jli4E49KFv0riLg1eVaI7j6X8=",
           "wg_endpoint": "tll-299-wg.whiskergalaxy.com",
           "ovpn_x509": "tll-299.windscribe.com",
-          "ping_ip": "165.231.141.122",
-          "ping_host": "http://ee-006.whiskergalaxy.com:6464/latency",
+          "ping_ip": "165.231.141.138",
+          "ping_host": "http://ee-008.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
@@ -1515,7 +1515,7 @@
               "ip3": "84.17.43.227",
               "hostname": "fr-017.whiskergalaxy.com",
               "weight": 1,
-              "health": 3
+              "health": 2
             },
             {
               "ip": "138.199.47.193",
@@ -1523,10 +1523,10 @@
               "ip3": "138.199.47.195",
               "hostname": "fr-023.whiskergalaxy.com",
               "weight": 2,
-              "health": 4
+              "health": 10
             }
           ],
-          "health": 4
+          "health": 6
         },
         {
           "id": 103,
@@ -1538,18 +1538,10 @@
           "wg_pubkey": "3si2nD1DKbbkeZkdg3hLMfOYw1gdKbVFtTOj2NOA+nM=",
           "wg_endpoint": "cdg-103-wg.whiskergalaxy.com",
           "ovpn_x509": "cdg-103.windscribe.com",
-          "ping_ip": "146.70.253.194",
-          "ping_host": "http://fr-030.whiskergalaxy.com:6464/latency",
+          "ping_ip": "146.70.253.162",
+          "ping_host": "http://fr-031.whiskergalaxy.com:6464/latency",
           "link_speed": "10000",
           "nodes": [
-            {
-              "ip": "37.120.158.194",
-              "ip2": "37.120.158.195",
-              "ip3": "37.120.158.196",
-              "hostname": "fr-034.whiskergalaxy.com",
-              "weight": 1,
-              "health": 2
-            },
             {
               "ip": "37.120.158.226",
               "ip2": "37.120.158.227",
@@ -1564,24 +1556,18 @@
               "ip3": "146.70.253.132",
               "hostname": "fr-032.whiskergalaxy.com",
               "weight": 1,
+              "health": 3
+            },
+            {
+              "ip": "37.120.158.194",
+              "ip2": "37.120.158.195",
+              "ip3": "37.120.158.196",
+              "hostname": "fr-034.whiskergalaxy.com",
+              "weight": 1,
               "health": 2
             }
           ],
           "health": 2
-        },
-        {
-          "id": 411,
-          "city": "Marseille",
-          "nick": "La Marseillaise",
-          "pro": 1,
-          "gps": "43.34,5.35",
-          "tz": "Europe/Paris",
-          "wg_pubkey": "Cqqx4g+EJG8C+CGRA/WCeMH7pixp9jLSXuadJCDPZ2g=",
-          "wg_endpoint": "mrs-411-wg.whiskergalaxy.com",
-          "ovpn_x509": "mrs-411.windscribe.com",
-          "ping_ip": "149.102.245.65",
-          "ping_host": "http://fr-024.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
         },
         {
           "id": 462,
@@ -1595,6 +1581,20 @@
           "ovpn_x509": "bod-462.windscribe.com",
           "ping_ip": "195.86.24.129",
           "ping_host": "http://fr-028.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 411,
+          "city": "Marseille",
+          "nick": "La Marseillaise",
+          "pro": 1,
+          "gps": "43.34,5.35",
+          "tz": "Europe/Paris",
+          "wg_pubkey": "Cqqx4g+EJG8C+CGRA/WCeMH7pixp9jLSXuadJCDPZ2g=",
+          "wg_endpoint": "mrs-411-wg.whiskergalaxy.com",
+          "ovpn_x509": "mrs-411.windscribe.com",
+          "ping_ip": "149.102.245.65",
+          "ping_host": "http://fr-024.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
@@ -1612,6 +1612,47 @@
       "loc_type": "normal",
       "dns_hostname": "de.windscribe.com",
       "groups": [
+        {
+          "id": 113,
+          "city": "Frankfurt",
+          "nick": "Sausage Party",
+          "pro": 0,
+          "gps": "50.11,8.68",
+          "tz": "Europe/Berlin",
+          "wg_pubkey": "e1kA4Tn1REdBHHo3BZsApwhCybD+VpGQ9FoUxUq4mzY=",
+          "wg_endpoint": "fra-113-wg.whiskergalaxy.com",
+          "ovpn_x509": "fra-113.windscribe.com",
+          "ping_ip": "135.136.0.34",
+          "ping_host": "http://de-041.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000",
+          "nodes": [
+            {
+              "ip": "185.104.184.130",
+              "ip2": "185.104.184.131",
+              "ip3": "185.104.184.132",
+              "hostname": "de-038.whiskergalaxy.com",
+              "weight": 1,
+              "health": 5
+            },
+            {
+              "ip": "135.136.0.34",
+              "ip2": "135.136.0.35",
+              "ip3": "135.136.0.36",
+              "hostname": "de-041.whiskergalaxy.com",
+              "weight": 1,
+              "health": 4
+            },
+            {
+              "ip": "146.70.62.66",
+              "ip2": "146.70.62.67",
+              "ip3": "146.70.62.68",
+              "hostname": "de-040.whiskergalaxy.com",
+              "weight": 1,
+              "health": 5
+            }
+          ],
+          "health": 5
+        },
         {
           "id": 228,
           "city": "Frankfurt",
@@ -1632,7 +1673,7 @@
               "ip3": "84.233.195.35",
               "hostname": "de-036.whiskergalaxy.com",
               "weight": 1,
-              "health": 5
+              "health": 7
             },
             {
               "ip": "84.233.195.46",
@@ -1640,51 +1681,10 @@
               "ip3": "84.233.195.48",
               "hostname": "de-037.whiskergalaxy.com",
               "weight": 1,
-              "health": 5
+              "health": 8
             }
           ],
-          "health": 5
-        },
-        {
-          "id": 113,
-          "city": "Frankfurt",
-          "nick": "Sausage Party",
-          "pro": 0,
-          "gps": "50.11,8.68",
-          "tz": "Europe/Berlin",
-          "wg_pubkey": "e1kA4Tn1REdBHHo3BZsApwhCybD+VpGQ9FoUxUq4mzY=",
-          "wg_endpoint": "fra-113-wg.whiskergalaxy.com",
-          "ovpn_x509": "fra-113.windscribe.com",
-          "ping_ip": "135.136.0.34",
-          "ping_host": "http://de-041.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000",
-          "nodes": [
-            {
-              "ip": "146.70.62.66",
-              "ip2": "146.70.62.67",
-              "ip3": "146.70.62.68",
-              "hostname": "de-040.whiskergalaxy.com",
-              "weight": 1,
-              "health": 3
-            },
-            {
-              "ip": "185.104.184.130",
-              "ip2": "185.104.184.131",
-              "ip3": "185.104.184.132",
-              "hostname": "de-038.whiskergalaxy.com",
-              "weight": 1,
-              "health": 3
-            },
-            {
-              "ip": "135.136.0.34",
-              "ip2": "135.136.0.35",
-              "ip3": "135.136.0.36",
-              "hostname": "de-041.whiskergalaxy.com",
-              "weight": 1,
-              "health": 3
-            }
-          ],
-          "health": 3
+          "health": 8
         },
         {
           "id": 449,
@@ -1827,20 +1827,6 @@
       "loc_type": "normal",
       "groups": [
         {
-          "id": 370,
-          "city": "Dublin",
-          "nick": "Dullahan",
-          "pro": 1,
-          "gps": "53.27,-7.78",
-          "tz": "Europe/Dublin",
-          "wg_pubkey": "VgzE+XeQUxX54wMZdhRBU4Qxqba95iVpXi197ZbBBgA=",
-          "wg_endpoint": "dub-370-wg.whiskergalaxy.com",
-          "ovpn_x509": "dub-370.windscribe.com",
-          "ping_ip": "23.92.127.34",
-          "ping_host": "http://ie-003.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
-        },
-        {
           "id": 400,
           "city": "Dublin",
           "nick": "Grafton",
@@ -1853,6 +1839,20 @@
           "ping_ip": "149.88.96.12",
           "ping_host": "http://ie-010.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
+        },
+        {
+          "id": 370,
+          "city": "Dublin",
+          "nick": "Dullahan",
+          "pro": 1,
+          "gps": "53.27,-7.78",
+          "tz": "Europe/Dublin",
+          "wg_pubkey": "VgzE+XeQUxX54wMZdhRBU4Qxqba95iVpXi197ZbBBgA=",
+          "wg_endpoint": "dub-370-wg.whiskergalaxy.com",
+          "ovpn_x509": "dub-370.windscribe.com",
+          "ping_ip": "5.157.13.146",
+          "ping_host": "http://ie-004.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
         }
       ]
     },
@@ -1878,8 +1878,8 @@
           "wg_pubkey": "2tyuu2HcOljr/wndoswy2Vk9gqXgjaP/IRg3vXoqFig=",
           "wg_endpoint": "tlv-218-wg.whiskergalaxy.com",
           "ovpn_x509": "tlv-218.windscribe.com",
-          "ping_ip": "185.191.205.2",
-          "ping_host": "http://il-005.whiskergalaxy.com:6464/latency",
+          "ping_ip": "185.191.204.98",
+          "ping_host": "http://il-006.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
@@ -1898,20 +1898,6 @@
       "force_expand": 1,
       "groups": [
         {
-          "id": 318,
-          "city": "Milan",
-          "nick": "Duomo",
-          "pro": 1,
-          "gps": "45.47,9.19",
-          "tz": "Europe/Rome",
-          "wg_pubkey": "QI+u918O4tyAtoV37B6HVdiQeZoEUi0dWXhSsC3LiWQ=",
-          "wg_endpoint": "mxp-318-wg.whiskergalaxy.com",
-          "ovpn_x509": "mxp-318.windscribe.com",
-          "ping_ip": "149.102.237.44",
-          "ping_host": "http://it-014.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
           "id": 110,
           "city": "Milan",
           "nick": "Galleria",
@@ -1921,8 +1907,8 @@
           "wg_pubkey": "PG6oqmH+m3JPVRBjfkbBlI/72noVZ8KrnSRq7GuGink=",
           "wg_endpoint": "mxp-110-wg.whiskergalaxy.com",
           "ovpn_x509": "mxp-110.windscribe.com",
-          "ping_ip": "185.183.105.130",
-          "ping_host": "http://it-009.whiskergalaxy.com:6464/latency",
+          "ping_ip": "185.183.105.146",
+          "ping_host": "http://it-010.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         },
         {
@@ -1937,6 +1923,20 @@
           "ovpn_x509": "pmo-428.windscribe.com",
           "ping_ip": "149.22.91.129",
           "ping_host": "http://it-016.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 318,
+          "city": "Milan",
+          "nick": "Duomo",
+          "pro": 1,
+          "gps": "45.47,9.19",
+          "tz": "Europe/Rome",
+          "wg_pubkey": "QI+u918O4tyAtoV37B6HVdiQeZoEUi0dWXhSsC3LiWQ=",
+          "wg_endpoint": "mxp-318-wg.whiskergalaxy.com",
+          "ovpn_x509": "mxp-318.windscribe.com",
+          "ping_ip": "149.102.237.44",
+          "ping_host": "http://it-014.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
@@ -1963,8 +1963,8 @@
           "wg_pubkey": "hcn+JR0QAhhUVVRND5Djq35caGmBEGlcp4MX/xlm6HE=",
           "wg_endpoint": "rix-254-wg.whiskergalaxy.com",
           "ovpn_x509": "rix-254.windscribe.com",
-          "ping_ip": "109.248.149.34",
-          "ping_host": "http://lv-014.whiskergalaxy.com:6464/latency",
+          "ping_ip": "109.248.147.66",
+          "ping_host": "http://lv-013.whiskergalaxy.com:6464/latency",
           "link_speed": "1000"
         },
         {
@@ -2005,8 +2005,8 @@
           "wg_pubkey": "0CUpqMsVggxsjvdZewCsBFsw84goCitq0G9nytQhpDw=",
           "wg_endpoint": "vno-378-wg.whiskergalaxy.com",
           "ovpn_x509": "vno-378.windscribe.com",
-          "ping_ip": "81.16.239.161",
-          "ping_host": "http://lt-009.whiskergalaxy.com:6464/latency",
+          "ping_ip": "185.82.92.225",
+          "ping_host": "http://lt-008.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
@@ -2081,39 +2081,6 @@
       "dns_hostname": "nl.windscribe.com",
       "groups": [
         {
-          "id": 120,
-          "city": "Amsterdam",
-          "nick": "Stroopwafel",
-          "pro": 0,
-          "gps": "52.37,4.90",
-          "tz": "Europe/Amsterdam",
-          "wg_pubkey": "c9QHUQhVUNIYqcp5HQ4gwoSoKzAgK8uSsoiJUrlriDA=",
-          "wg_endpoint": "ams-120-wg.whiskergalaxy.com",
-          "ovpn_x509": "ams-120.windscribe.com",
-          "ping_ip": "185.212.171.130",
-          "ping_host": "http://nl-048.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000",
-          "nodes": [
-            {
-              "ip": "185.212.171.66",
-              "ip2": "185.212.171.67",
-              "ip3": "185.212.171.68",
-              "hostname": "nl-047.whiskergalaxy.com",
-              "weight": 1,
-              "health": 3
-            },
-            {
-              "ip": "185.212.171.162",
-              "ip2": "185.212.171.163",
-              "ip3": "185.212.171.164",
-              "hostname": "nl-046.whiskergalaxy.com",
-              "weight": 1,
-              "health": 3
-            }
-          ],
-          "health": 3
-        },
-        {
           "id": 466,
           "city": "Amsterdam",
           "nick": "Stolen Cheese",
@@ -2128,6 +2095,39 @@
           "link_speed": "10000"
         },
         {
+          "id": 120,
+          "city": "Amsterdam",
+          "nick": "Stroopwafel",
+          "pro": 0,
+          "gps": "52.37,4.90",
+          "tz": "Europe/Amsterdam",
+          "wg_pubkey": "c9QHUQhVUNIYqcp5HQ4gwoSoKzAgK8uSsoiJUrlriDA=",
+          "wg_endpoint": "ams-120-wg.whiskergalaxy.com",
+          "ovpn_x509": "ams-120.windscribe.com",
+          "ping_ip": "185.212.171.162",
+          "ping_host": "http://nl-046.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000",
+          "nodes": [
+            {
+              "ip": "185.212.171.66",
+              "ip2": "185.212.171.67",
+              "ip3": "185.212.171.68",
+              "hostname": "nl-047.whiskergalaxy.com",
+              "weight": 1,
+              "health": 4
+            },
+            {
+              "ip": "185.212.171.162",
+              "ip2": "185.212.171.163",
+              "ip3": "185.212.171.164",
+              "hostname": "nl-046.whiskergalaxy.com",
+              "weight": 1,
+              "health": 4
+            }
+          ],
+          "health": 4
+        },
+        {
           "id": 193,
           "city": "Amsterdam",
           "nick": "Tulip",
@@ -2137,28 +2137,28 @@
           "wg_pubkey": "pLzFr9exM2Z5oXw0iuKnXIJZxa4I0UEmyFC85sHtDwk=",
           "wg_endpoint": "ams-193-wg.whiskergalaxy.com",
           "ovpn_x509": "ams-193.windscribe.com",
-          "ping_ip": "149.36.51.173",
-          "ping_host": "http://nl-044.whiskergalaxy.com:6464/latency",
+          "ping_ip": "149.36.51.129",
+          "ping_host": "http://nl-038.whiskergalaxy.com:6464/latency",
           "link_speed": "10000",
           "nodes": [
-            {
-              "ip": "169.150.196.193",
-              "ip2": "169.150.196.194",
-              "ip3": "169.150.196.195",
-              "hostname": "nl-025.whiskergalaxy.com",
-              "weight": 2,
-              "health": 3
-            },
             {
               "ip": "169.150.196.221",
               "ip2": "169.150.196.222",
               "ip3": "169.150.196.223",
               "hostname": "nl-024.whiskergalaxy.com",
               "weight": 2,
-              "health": 3
+              "health": 4
+            },
+            {
+              "ip": "169.150.196.193",
+              "ip2": "169.150.196.194",
+              "ip3": "169.150.196.195",
+              "hostname": "nl-025.whiskergalaxy.com",
+              "weight": 2,
+              "health": 4
             }
           ],
-          "health": 3
+          "health": 4
         }
       ]
     },
@@ -2213,10 +2213,18 @@
           "wg_pubkey": "y+Kvlfz0z8DF17hVvEezMml3SH3OaB2l5l09DPdQNCk=",
           "wg_endpoint": "osl-169-wg.whiskergalaxy.com",
           "ovpn_x509": "osl-169.windscribe.com",
-          "ping_ip": "146.70.170.210",
-          "ping_host": "http://no-018.whiskergalaxy.com:6464/latency",
+          "ping_ip": "91.219.215.162",
+          "ping_host": "http://no-019.whiskergalaxy.com:6464/latency",
           "link_speed": "10000",
           "nodes": [
+            {
+              "ip": "130.195.211.2",
+              "ip2": "130.195.211.3",
+              "ip3": "130.195.211.4",
+              "hostname": "no-015.whiskergalaxy.com",
+              "weight": 1,
+              "health": 3
+            },
             {
               "ip": "130.195.211.18",
               "ip2": "130.195.211.19",
@@ -2238,14 +2246,6 @@
               "ip2": "146.70.219.227",
               "ip3": "146.70.219.228",
               "hostname": "no-017.whiskergalaxy.com",
-              "weight": 1,
-              "health": 2
-            },
-            {
-              "ip": "130.195.211.2",
-              "ip2": "130.195.211.3",
-              "ip3": "130.195.211.4",
-              "hostname": "no-015.whiskergalaxy.com",
               "weight": 1,
               "health": 2
             }
@@ -2281,17 +2281,17 @@
       "loc_type": "normal",
       "groups": [
         {
-          "id": 237,
-          "city": "Warsaw",
-          "nick": "Curie",
+          "id": 85,
+          "city": "Gdansk",
+          "nick": "Motlawa",
           "pro": 1,
           "gps": "52.23,21.02",
           "tz": "Europe/Warsaw",
-          "wg_pubkey": "aZkVfQ47eZjQXlFXaXR/joai25TTXOH0jk8JU4S+718=",
-          "wg_endpoint": "waw-237-wg.whiskergalaxy.com",
-          "ovpn_x509": "waw-237.windscribe.com",
-          "ping_ip": "37.120.156.18",
-          "ping_host": "http://pl-007.whiskergalaxy.com:6464/latency",
+          "wg_pubkey": "4RW2y35hBMICisW6aAEnR4ksT7rjOEmFx2+7pjqKuiA=",
+          "wg_endpoint": "waw-85-wg.whiskergalaxy.com",
+          "ovpn_x509": "waw-85.windscribe.com",
+          "ping_ip": "5.187.52.146",
+          "ping_host": "http://pl-010.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         },
         {
@@ -2309,17 +2309,17 @@
           "link_speed": "10000"
         },
         {
-          "id": 85,
-          "city": "Gdansk",
-          "nick": "Motlawa",
+          "id": 237,
+          "city": "Warsaw",
+          "nick": "Curie",
           "pro": 1,
           "gps": "52.23,21.02",
           "tz": "Europe/Warsaw",
-          "wg_pubkey": "4RW2y35hBMICisW6aAEnR4ksT7rjOEmFx2+7pjqKuiA=",
-          "wg_endpoint": "waw-85-wg.whiskergalaxy.com",
-          "ovpn_x509": "waw-85.windscribe.com",
-          "ping_ip": "5.187.52.146",
-          "ping_host": "http://pl-010.whiskergalaxy.com:6464/latency",
+          "wg_pubkey": "aZkVfQ47eZjQXlFXaXR/joai25TTXOH0jk8JU4S+718=",
+          "wg_endpoint": "waw-237-wg.whiskergalaxy.com",
+          "ovpn_x509": "waw-237.windscribe.com",
+          "ping_ip": "37.120.156.18",
+          "ping_host": "http://pl-007.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
@@ -2366,63 +2366,6 @@
       "dns_hostname": "ro.windscribe.com",
       "groups": [
         {
-          "id": 105,
-          "city": "Bucharest",
-          "nick": "No Vampires",
-          "pro": 0,
-          "gps": "44.44,26.10",
-          "tz": "Europe/Bucharest",
-          "wg_pubkey": "eIYiubmBdTz6WEopGNvlou37zzJ4/wD0LgsQudpiAgA=",
-          "wg_endpoint": "otp-105-wg.whiskergalaxy.com",
-          "ovpn_x509": "otp-105.windscribe.com",
-          "ping_ip": "66.234.147.194",
-          "ping_host": "http://ro-024.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000",
-          "nodes": [
-            {
-              "ip": "185.163.110.194",
-              "ip2": "185.163.110.195",
-              "ip3": "185.163.110.196",
-              "hostname": "ro-017.whiskergalaxy.com",
-              "weight": 1,
-              "health": 2
-            },
-            {
-              "ip": "185.144.82.2",
-              "ip2": "185.144.82.3",
-              "ip3": "185.144.82.4",
-              "hostname": "ro-019.whiskergalaxy.com",
-              "weight": 1,
-              "health": 2
-            },
-            {
-              "ip": "66.234.147.226",
-              "ip2": "66.234.147.227",
-              "ip3": "66.234.147.228",
-              "hostname": "ro-023.whiskergalaxy.com",
-              "weight": 1,
-              "health": 2
-            },
-            {
-              "ip": "66.234.147.194",
-              "ip2": "66.234.147.195",
-              "ip3": "66.234.147.196",
-              "hostname": "ro-024.whiskergalaxy.com",
-              "weight": 1,
-              "health": 2
-            },
-            {
-              "ip": "91.207.103.194",
-              "ip2": "91.207.103.195",
-              "ip3": "91.207.103.196",
-              "hostname": "ro-018.whiskergalaxy.com",
-              "weight": 1,
-              "health": 2
-            }
-          ],
-          "health": 2
-        },
-        {
           "id": 430,
           "city": "Bucharest",
           "nick": "Noctropolis",
@@ -2435,6 +2378,63 @@
           "ping_ip": "169.150.199.1",
           "ping_host": "http://ro-015.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
+        },
+        {
+          "id": 105,
+          "city": "Bucharest",
+          "nick": "No Vampires",
+          "pro": 0,
+          "gps": "44.44,26.10",
+          "tz": "Europe/Bucharest",
+          "wg_pubkey": "eIYiubmBdTz6WEopGNvlou37zzJ4/wD0LgsQudpiAgA=",
+          "wg_endpoint": "otp-105-wg.whiskergalaxy.com",
+          "ovpn_x509": "otp-105.windscribe.com",
+          "ping_ip": "135.136.1.2",
+          "ping_host": "http://ro-021.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000",
+          "nodes": [
+            {
+              "ip": "185.144.82.2",
+              "ip2": "185.144.82.3",
+              "ip3": "185.144.82.4",
+              "hostname": "ro-019.whiskergalaxy.com",
+              "weight": 1,
+              "health": 4
+            },
+            {
+              "ip": "185.163.110.194",
+              "ip2": "185.163.110.195",
+              "ip3": "185.163.110.196",
+              "hostname": "ro-017.whiskergalaxy.com",
+              "weight": 1,
+              "health": 4
+            },
+            {
+              "ip": "91.207.103.194",
+              "ip2": "91.207.103.195",
+              "ip3": "91.207.103.196",
+              "hostname": "ro-018.whiskergalaxy.com",
+              "weight": 1,
+              "health": 4
+            },
+            {
+              "ip": "66.234.147.226",
+              "ip2": "66.234.147.227",
+              "ip3": "66.234.147.228",
+              "hostname": "ro-023.whiskergalaxy.com",
+              "weight": 1,
+              "health": 4
+            },
+            {
+              "ip": "66.234.147.194",
+              "ip2": "66.234.147.195",
+              "ip3": "66.234.147.196",
+              "hostname": "ro-024.whiskergalaxy.com",
+              "weight": 1,
+              "health": 3
+            }
+          ],
+          "health": 4
         }
       ]
     },
@@ -2460,8 +2460,8 @@
           "wg_pubkey": "87RdB427Hxehe3ePG8mSpPBsdwGgKWwAkEtbleThckw=",
           "wg_endpoint": "bts-213-wg.whiskergalaxy.com",
           "ovpn_x509": "bts-213.windscribe.com",
-          "ping_ip": "149.102.232.225",
-          "ping_host": "http://sk-005.whiskergalaxy.com:6464/latency",
+          "ping_ip": "149.102.232.238",
+          "ping_host": "http://sk-006.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
@@ -2479,6 +2479,20 @@
       "loc_type": "normal",
       "force_expand": 1,
       "groups": [
+        {
+          "id": 115,
+          "city": "Madrid",
+          "nick": "Prado",
+          "pro": 1,
+          "gps": "40.42,-3.70",
+          "tz": "Europe/Madrid",
+          "wg_pubkey": "3AuxTNwzilEtwUvEd71zqbjjBuGD/XcnOEPnVLn2gWQ=",
+          "wg_endpoint": "mad-115-wg.whiskergalaxy.com",
+          "ovpn_x509": "mad-115.windscribe.com",
+          "ping_ip": "82.102.17.178",
+          "ping_host": "http://es-006.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
         {
           "id": 239,
           "city": "Barcelona",
@@ -2506,20 +2520,6 @@
           "ping_ip": "79.127.139.33",
           "ping_host": "http://es-009.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
-        },
-        {
-          "id": 115,
-          "city": "Madrid",
-          "nick": "Prado",
-          "pro": 1,
-          "gps": "40.42,-3.70",
-          "tz": "Europe/Madrid",
-          "wg_pubkey": "3AuxTNwzilEtwUvEd71zqbjjBuGD/XcnOEPnVLn2gWQ=",
-          "wg_endpoint": "mad-115-wg.whiskergalaxy.com",
-          "ovpn_x509": "mad-115.windscribe.com",
-          "ping_ip": "82.102.17.178",
-          "ping_host": "http://es-006.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
         }
       ]
     },
@@ -2536,18 +2536,18 @@
       "loc_type": "normal",
       "groups": [
         {
-          "id": 234,
+          "id": 159,
           "city": "Stockholm",
-          "nick": "Djurgarden",
+          "nick": "Ikea",
           "pro": 1,
-          "gps": "59.29,18.08",
+          "gps": "59.33,18.07",
           "tz": "Europe/Stockholm",
-          "wg_pubkey": "P5X43E/SgvnJtbrKnJwLFxqFoZGsCghW2SxlXvfdzm0=",
-          "wg_endpoint": "arn-234-wg.whiskergalaxy.com",
-          "ovpn_x509": "arn-234.windscribe.com",
-          "ping_ip": "79.142.76.197",
-          "ping_host": "http://se-002.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
+          "wg_pubkey": "HENIT1CTAKjPrhG4s64jPJSzEjtEZPRARxA3amm49WU=",
+          "wg_endpoint": "arn-159-wg.whiskergalaxy.com",
+          "ovpn_x509": "arn-159.windscribe.com",
+          "ping_ip": "149.50.216.76",
+          "ping_host": "http://se-009.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
         },
         {
           "id": 30,
@@ -2564,18 +2564,18 @@
           "link_speed": "10000"
         },
         {
-          "id": 159,
+          "id": 234,
           "city": "Stockholm",
-          "nick": "Ikea",
+          "nick": "Djurgarden",
           "pro": 1,
-          "gps": "59.33,18.07",
+          "gps": "59.29,18.08",
           "tz": "Europe/Stockholm",
-          "wg_pubkey": "HENIT1CTAKjPrhG4s64jPJSzEjtEZPRARxA3amm49WU=",
-          "wg_endpoint": "arn-159-wg.whiskergalaxy.com",
-          "ovpn_x509": "arn-159.windscribe.com",
-          "ping_ip": "149.50.216.65",
-          "ping_host": "http://se-006.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
+          "wg_pubkey": "P5X43E/SgvnJtbrKnJwLFxqFoZGsCghW2SxlXvfdzm0=",
+          "wg_endpoint": "arn-234-wg.whiskergalaxy.com",
+          "ovpn_x509": "arn-234.windscribe.com",
+          "ping_ip": "79.142.76.197",
+          "ping_host": "http://se-002.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
         }
       ]
     },
@@ -2593,20 +2593,6 @@
       "dns_hostname": "ch.windscribe.com",
       "groups": [
         {
-          "id": 264,
-          "city": "Zurich",
-          "nick": "Altstadt",
-          "pro": 1,
-          "gps": "47.38,8.54",
-          "tz": "Europe/Zurich",
-          "wg_pubkey": "3+ehrqWHaqA4lC10BRkscYasaewB2eamMSRda+HSkxQ=",
-          "wg_endpoint": "zrh-264-wg.whiskergalaxy.com",
-          "ovpn_x509": "zrh-264.windscribe.com",
-          "ping_ip": "31.7.62.50",
-          "ping_host": "http://ch-019.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
           "id": 112,
           "city": "Zurich",
           "nick": "Alphorn",
@@ -2616,28 +2602,42 @@
           "wg_pubkey": "uFOg97vQhHVCUfZy/HwmGH+dR6/9lpeWZ5tV3PysHRE=",
           "wg_endpoint": "zrh-112-wg.whiskergalaxy.com",
           "ovpn_x509": "zrh-112.windscribe.com",
-          "ping_ip": "146.70.126.50",
-          "ping_host": "http://ch-023.whiskergalaxy.com:6464/latency",
+          "ping_ip": "37.120.213.210",
+          "ping_host": "http://ch-024.whiskergalaxy.com:6464/latency",
           "link_speed": "10000",
           "nodes": [
-            {
-              "ip": "146.70.126.34",
-              "ip2": "146.70.126.35",
-              "ip3": "146.70.126.36",
-              "hostname": "ch-026.whiskergalaxy.com",
-              "weight": 1,
-              "health": 2
-            },
             {
               "ip": "37.120.213.194",
               "ip2": "37.120.213.195",
               "ip3": "37.120.213.196",
               "hostname": "ch-025.whiskergalaxy.com",
               "weight": 1,
+              "health": 2
+            },
+            {
+              "ip": "146.70.126.34",
+              "ip2": "146.70.126.35",
+              "ip3": "146.70.126.36",
+              "hostname": "ch-026.whiskergalaxy.com",
+              "weight": 1,
               "health": 3
             }
           ],
           "health": 3
+        },
+        {
+          "id": 264,
+          "city": "Zurich",
+          "nick": "Altstadt",
+          "pro": 1,
+          "gps": "47.38,8.54",
+          "tz": "Europe/Zurich",
+          "wg_pubkey": "3+ehrqWHaqA4lC10BRkscYasaewB2eamMSRda+HSkxQ=",
+          "wg_endpoint": "zrh-264-wg.whiskergalaxy.com",
+          "ovpn_x509": "zrh-264.windscribe.com",
+          "ping_ip": "141.255.162.194",
+          "ping_host": "http://ch-017.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
         },
         {
           "id": 317,
@@ -2659,7 +2659,7 @@
               "ip3": "169.150.197.164",
               "hostname": "ch-027.whiskergalaxy.com",
               "weight": 1,
-              "health": 2
+              "health": 4
             },
             {
               "ip": "89.187.165.97",
@@ -2667,10 +2667,10 @@
               "ip3": "89.187.165.99",
               "hostname": "ch-028.whiskergalaxy.com",
               "weight": 1,
-              "health": 4
+              "health": 3
             }
           ],
-          "health": 3
+          "health": 4
         }
       ]
     },
@@ -2702,20 +2702,12 @@
           "link_speed": "10000",
           "nodes": [
             {
-              "ip": "138.199.31.129",
-              "ip2": "138.199.31.130",
-              "ip3": "138.199.31.131",
-              "hostname": "uk-029.whiskergalaxy.com",
-              "weight": 1,
-              "health": 1
-            },
-            {
               "ip": "84.17.50.157",
               "ip2": "84.17.50.158",
               "ip3": "84.17.50.159",
               "hostname": "uk-040.whiskergalaxy.com",
               "weight": 1,
-              "health": 2
+              "health": 1
             },
             {
               "ip": "84.17.50.129",
@@ -2724,6 +2716,14 @@
               "hostname": "uk-039.whiskergalaxy.com",
               "weight": 1,
               "health": 1
+            },
+            {
+              "ip": "138.199.31.129",
+              "ip2": "138.199.31.130",
+              "ip3": "138.199.31.131",
+              "hostname": "uk-029.whiskergalaxy.com",
+              "weight": 1,
+              "health": 2
             },
             {
               "ip": "212.102.63.92",
@@ -2751,20 +2751,6 @@
           "link_speed": "10000"
         },
         {
-          "id": 369,
-          "city": "Edinburgh",
-          "nick": "Keeper Willie",
-          "pro": 1,
-          "gps": "55.95,-3.19",
-          "tz": "Europe/London",
-          "wg_pubkey": "bGn6yuCFQWWF8+ZMGlJ0M6+IJRlkLXn0/UI/mvIyYwQ=",
-          "wg_endpoint": "edi-369-wg.whiskergalaxy.com",
-          "ovpn_x509": "edi-369.windscribe.com",
-          "ping_ip": "193.36.118.210",
-          "ping_host": "http://uk-043.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
-        },
-        {
           "id": 335,
           "city": "London",
           "nick": "Biscuits",
@@ -2779,6 +2765,34 @@
           "link_speed": "10000"
         },
         {
+          "id": 450,
+          "city": "Manchester",
+          "nick": "City",
+          "pro": 1,
+          "gps": "53.48,-2.24",
+          "tz": "Europe/London",
+          "wg_pubkey": "5QeQQOWYo3vQlG7tLAC3Z7J/0LVtZzLDZKt5fSfnkE8=",
+          "wg_endpoint": "man-450-wg.whiskergalaxy.com",
+          "ovpn_x509": "man-450.windscribe.com",
+          "ping_ip": "84.233.178.33",
+          "ping_host": "http://uk-047.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 369,
+          "city": "Edinburgh",
+          "nick": "Keeper Willie",
+          "pro": 1,
+          "gps": "55.95,-3.19",
+          "tz": "Europe/London",
+          "wg_pubkey": "bGn6yuCFQWWF8+ZMGlJ0M6+IJRlkLXn0/UI/mvIyYwQ=",
+          "wg_endpoint": "edi-369-wg.whiskergalaxy.com",
+          "ovpn_x509": "edi-369.windscribe.com",
+          "ping_ip": "193.36.118.226",
+          "ping_host": "http://uk-030.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
+        },
+        {
           "id": 171,
           "city": "London",
           "nick": "Crumpets",
@@ -2788,23 +2802,23 @@
           "wg_pubkey": "yrmgyxaJAxTEth7Gc8lXOQVHn9Gn/fzd4cLE+0WZjFI=",
           "wg_endpoint": "lhr-171-wg.whiskergalaxy.com",
           "ovpn_x509": "lhr-171.windscribe.com",
-          "ping_ip": "37.221.113.178",
-          "ping_host": "http://uk-052.whiskergalaxy.com:6464/latency",
+          "ping_ip": "37.221.113.194",
+          "ping_host": "http://uk-048.whiskergalaxy.com:6464/latency",
           "link_speed": "10000",
           "nodes": [
-            {
-              "ip": "37.221.113.146",
-              "ip2": "37.221.113.147",
-              "ip3": "37.221.113.148",
-              "hostname": "uk-050.whiskergalaxy.com",
-              "weight": 1,
-              "health": 2
-            },
             {
               "ip": "37.221.113.130",
               "ip2": "37.221.113.131",
               "ip3": "37.221.113.132",
               "hostname": "uk-049.whiskergalaxy.com",
+              "weight": 1,
+              "health": 2
+            },
+            {
+              "ip": "37.221.113.146",
+              "ip2": "37.221.113.147",
+              "ip3": "37.221.113.148",
+              "hostname": "uk-050.whiskergalaxy.com",
               "weight": 1,
               "health": 2
             },
@@ -2818,20 +2832,6 @@
             }
           ],
           "health": 2
-        },
-        {
-          "id": 450,
-          "city": "Manchester",
-          "nick": "City",
-          "pro": 1,
-          "gps": "53.48,-2.24",
-          "tz": "Europe/London",
-          "wg_pubkey": "5QeQQOWYo3vQlG7tLAC3Z7J/0LVtZzLDZKt5fSfnkE8=",
-          "wg_endpoint": "man-450-wg.whiskergalaxy.com",
-          "ovpn_x509": "man-450.windscribe.com",
-          "ping_ip": "84.233.178.33",
-          "ping_host": "http://uk-047.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
         }
       ]
     },
@@ -2961,6 +2961,20 @@
       "force_expand": 1,
       "groups": [
         {
+          "id": 457,
+          "city": "Fake Mumbai",
+          "nick": "Mayanagri",
+          "pro": 1,
+          "gps": "19.10,72.89",
+          "tz": "Asia/Kolkata",
+          "wg_pubkey": "4/U1f9krqCwTkzk08qZ1GHTqe+z2iVfCLx+sGouXuzw=",
+          "wg_endpoint": "bom-457-wg.whiskergalaxy.com",
+          "ovpn_x509": "bom-457.windscribe.com",
+          "ping_ip": "85.199.255.82",
+          "ping_host": "http://in-019.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
           "id": 372,
           "city": "Mumbai",
           "nick": "Old Spice",
@@ -2984,23 +2998,9 @@
           "wg_pubkey": "Ve/vQfFTt4NRr0RWG0muS7Gv0SpqaLdsk16mj33GUXA=",
           "wg_endpoint": "del-417-wg.whiskergalaxy.com",
           "ovpn_x509": "del-417.windscribe.com",
-          "ping_ip": "103.26.207.103",
-          "ping_host": "http://in-017.whiskergalaxy.com:6464/latency",
+          "ping_ip": "103.26.207.94",
+          "ping_host": "http://in-015.whiskergalaxy.com:6464/latency",
           "link_speed": "1000"
-        },
-        {
-          "id": 457,
-          "city": "Fake Mumbai",
-          "nick": "Mayanagri",
-          "pro": 1,
-          "gps": "19.10,72.89",
-          "tz": "Asia/Kolkata",
-          "wg_pubkey": "4/U1f9krqCwTkzk08qZ1GHTqe+z2iVfCLx+sGouXuzw=",
-          "wg_endpoint": "bom-457-wg.whiskergalaxy.com",
-          "ovpn_x509": "bom-457.windscribe.com",
-          "ping_ip": "85.199.255.82",
-          "ping_host": "http://in-019.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
         }
       ]
     },
@@ -3082,8 +3082,8 @@
           "wg_pubkey": "gLPWBcPANL0mgwEkImb6PUJmR2ncz7S9DKIDDYvgJkk=",
           "wg_endpoint": "led-265-wg.whiskergalaxy.com",
           "ovpn_x509": "led-265.windscribe.com",
-          "ping_ip": "192.159.101.178",
-          "ping_host": "http://ru-030.whiskergalaxy.com:6464/latency",
+          "ping_ip": "192.159.101.174",
+          "ping_host": "http://ru-029.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         },
         {
@@ -3171,6 +3171,20 @@
       "loc_type": "normal",
       "groups": [
         {
+          "id": 232,
+          "city": "Johannesburg",
+          "nick": "Lindfield",
+          "pro": 1,
+          "gps": "-26.20,28.05",
+          "tz": "Africa/Johannesburg",
+          "wg_pubkey": "stPvzj5yM1z5Qg9H3gMvAKNPJLU0X3SeUSJPg3wqDR8=",
+          "wg_endpoint": "jnb-232-wg.whiskergalaxy.com",
+          "ovpn_x509": "jnb-232.windscribe.com",
+          "ping_ip": "165.73.248.90",
+          "ping_host": "http://za-004.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
+        },
+        {
           "id": 164,
           "city": "Johannesburg",
           "nick": "District 69",
@@ -3180,8 +3194,8 @@
           "wg_pubkey": "Nh5LEJT44xbuvTQnv3OZ0bXi09BFXV4SBB1XVMI12Ec=",
           "wg_endpoint": "jnb-164-wg.whiskergalaxy.com",
           "ovpn_x509": "jnb-164.windscribe.com",
-          "ping_ip": "197.242.155.133",
-          "ping_host": "http://za-001.whiskergalaxy.com:6464/latency",
+          "ping_ip": "197.242.159.23",
+          "ping_host": "http://za-006.whiskergalaxy.com:6464/latency",
           "link_speed": "1000"
         },
         {
@@ -3197,20 +3211,6 @@
           "ping_ip": "213.139.10.46",
           "ping_host": "http://za-011.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
-        },
-        {
-          "id": 232,
-          "city": "Johannesburg",
-          "nick": "Lindfield",
-          "pro": 1,
-          "gps": "-26.20,28.05",
-          "tz": "Africa/Johannesburg",
-          "wg_pubkey": "stPvzj5yM1z5Qg9H3gMvAKNPJLU0X3SeUSJPg3wqDR8=",
-          "wg_endpoint": "jnb-232-wg.whiskergalaxy.com",
-          "ovpn_x509": "jnb-232.windscribe.com",
-          "ping_ip": "108.181.120.26",
-          "ping_host": "http://za-008.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
         }
       ]
     },
@@ -3237,8 +3237,8 @@
           "wg_pubkey": "YQvL8lipIGjEE4qgpjMX3FrG+CnVNFyiGgg3wkvhSw4=",
           "wg_endpoint": "ist-405-wg.whiskergalaxy.com",
           "ovpn_x509": "ist-405.windscribe.com",
-          "ping_ip": "149.50.208.46",
-          "ping_host": "http://tr-022.whiskergalaxy.com:6464/latency",
+          "ping_ip": "149.50.208.33",
+          "ping_host": "http://tr-023.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
@@ -3284,18 +3284,18 @@
       "loc_type": "normal",
       "groups": [
         {
-          "id": 354,
-          "city": "Adelaide",
-          "nick": "Lofty",
+          "id": 225,
+          "city": "Brisbane",
+          "nick": "Bad Koala",
           "pro": 1,
-          "gps": "-34.92,138.60",
-          "tz": "Australia/Adelaide",
-          "wg_pubkey": "Sb5VSMZhhqSo5absckjzPn9HWhT7UrKk1AQv0me0zhI=",
-          "wg_endpoint": "adl-354-wg.whiskergalaxy.com",
-          "ovpn_x509": "adl-354.windscribe.com",
-          "ping_ip": "103.108.92.82",
-          "ping_host": "http://au-011.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
+          "gps": "-27.47,153.02",
+          "tz": "Australia/Brisbane",
+          "wg_pubkey": "KvFr7Te5+RaFATDKJzrNXKf44ws8J6E9WbNVsMPvY1I=",
+          "wg_endpoint": "bne-225-wg.whiskergalaxy.com",
+          "ovpn_x509": "bne-225.windscribe.com",
+          "ping_ip": "103.62.50.130",
+          "ping_host": "http://au-007.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
         },
         {
           "id": 355,
@@ -3309,6 +3309,62 @@
           "ovpn_x509": "per-355.windscribe.com",
           "ping_ip": "103.77.234.210",
           "ping_host": "http://au-021.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
+        },
+        {
+          "id": 357,
+          "city": "Brisbane",
+          "nick": "Good Koala",
+          "pro": 1,
+          "gps": "-27.47,153.02",
+          "tz": "Australia/Brisbane",
+          "wg_pubkey": "iY4MhQqQTP4uT7U4w9DfUEVxi5I3HJvjZcIL2dwmtTw=",
+          "wg_endpoint": "bne-357-wg.whiskergalaxy.com",
+          "ovpn_x509": "bne-357.windscribe.com",
+          "ping_ip": "103.108.95.226",
+          "ping_host": "http://au-018.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
+        },
+        {
+          "id": 226,
+          "city": "Sydney",
+          "nick": "Eshay",
+          "pro": 1,
+          "gps": "-33.86,151.20",
+          "tz": "Australia/Sydney",
+          "wg_pubkey": "jCi1I5HBTtwCblBbMzOFmOOFNG1GilYOZgst0kyq9gY=",
+          "wg_endpoint": "syd-226-wg.whiskergalaxy.com",
+          "ovpn_x509": "syd-226.windscribe.com",
+          "ping_ip": "103.1.213.210",
+          "ping_host": "http://au-015.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 243,
+          "city": "Sydney",
+          "nick": "Squidney",
+          "pro": 1,
+          "gps": "-33.86,151.20",
+          "tz": "Australia/Sydney",
+          "wg_pubkey": "eSxX+L8qX+1MdmwjtlZGIDbDivFdURBh5Rm1KfUpYzc=",
+          "wg_endpoint": "syd-243-wg.whiskergalaxy.com",
+          "ovpn_x509": "syd-243.windscribe.com",
+          "ping_ip": "103.77.232.74",
+          "ping_host": "http://au-019.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
+        },
+        {
+          "id": 354,
+          "city": "Adelaide",
+          "nick": "Lofty",
+          "pro": 1,
+          "gps": "-34.92,138.60",
+          "tz": "Australia/Adelaide",
+          "wg_pubkey": "Sb5VSMZhhqSo5absckjzPn9HWhT7UrKk1AQv0me0zhI=",
+          "wg_endpoint": "adl-354-wg.whiskergalaxy.com",
+          "ovpn_x509": "adl-354.windscribe.com",
+          "ping_ip": "103.108.92.82",
+          "ping_host": "http://au-011.whiskergalaxy.com:6464/latency",
           "link_speed": "1000"
         },
         {
@@ -3354,20 +3410,6 @@
           "link_speed": "10000"
         },
         {
-          "id": 226,
-          "city": "Sydney",
-          "nick": "Eshay",
-          "pro": 1,
-          "gps": "-33.86,151.20",
-          "tz": "Australia/Sydney",
-          "wg_pubkey": "jCi1I5HBTtwCblBbMzOFmOOFNG1GilYOZgst0kyq9gY=",
-          "wg_endpoint": "syd-226-wg.whiskergalaxy.com",
-          "ovpn_x509": "syd-226.windscribe.com",
-          "ping_ip": "103.1.213.210",
-          "ping_host": "http://au-015.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
           "id": 356,
           "city": "Melbourne",
           "nick": "Port Phillip",
@@ -3379,48 +3421,6 @@
           "ovpn_x509": "mel-356.windscribe.com",
           "ping_ip": "116.206.228.178",
           "ping_host": "http://au-017.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
-        },
-        {
-          "id": 225,
-          "city": "Brisbane",
-          "nick": "Bad Koala",
-          "pro": 1,
-          "gps": "-27.47,153.02",
-          "tz": "Australia/Brisbane",
-          "wg_pubkey": "KvFr7Te5+RaFATDKJzrNXKf44ws8J6E9WbNVsMPvY1I=",
-          "wg_endpoint": "bne-225-wg.whiskergalaxy.com",
-          "ovpn_x509": "bne-225.windscribe.com",
-          "ping_ip": "103.62.50.130",
-          "ping_host": "http://au-007.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
-          "id": 357,
-          "city": "Brisbane",
-          "nick": "Good Koala",
-          "pro": 1,
-          "gps": "-27.47,153.02",
-          "tz": "Australia/Brisbane",
-          "wg_pubkey": "iY4MhQqQTP4uT7U4w9DfUEVxi5I3HJvjZcIL2dwmtTw=",
-          "wg_endpoint": "bne-357-wg.whiskergalaxy.com",
-          "ovpn_x509": "bne-357.windscribe.com",
-          "ping_ip": "103.108.95.226",
-          "ping_host": "http://au-018.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
-        },
-        {
-          "id": 243,
-          "city": "Sydney",
-          "nick": "Squidney",
-          "pro": 1,
-          "gps": "-33.86,151.20",
-          "tz": "Australia/Sydney",
-          "wg_pubkey": "eSxX+L8qX+1MdmwjtlZGIDbDivFdURBh5Rm1KfUpYzc=",
-          "wg_endpoint": "syd-243-wg.whiskergalaxy.com",
-          "ovpn_x509": "syd-243.windscribe.com",
-          "ping_ip": "103.77.232.74",
-          "ping_host": "http://au-019.whiskergalaxy.com:6464/latency",
           "link_speed": "1000"
         }
       ]
@@ -3481,20 +3481,6 @@
       "dns_hostname": "hk.windscribe.com",
       "groups": [
         {
-          "id": 189,
-          "city": "Hong Kong",
-          "nick": "Phooey",
-          "pro": 1,
-          "gps": "22.29,114.16",
-          "tz": "Asia/Hong_Kong",
-          "wg_pubkey": "zi62xnrtbvAbaavB8MLoTF36BX/stxjfnGJ6mIsZYzg=",
-          "wg_endpoint": "hkg-189-wg.whiskergalaxy.com",
-          "ovpn_x509": "hkg-189.windscribe.com",
-          "ping_ip": "84.17.57.113",
-          "ping_host": "http://hk-006.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
           "id": 26,
           "city": "Hong Kong",
           "nick": "Victoria",
@@ -3509,23 +3495,37 @@
           "link_speed": "10000",
           "nodes": [
             {
-              "ip": "146.70.250.18",
-              "ip2": "146.70.250.19",
-              "ip3": "146.70.250.20",
-              "hostname": "hk-014.whiskergalaxy.com",
-              "weight": 1,
-              "health": 4
-            },
-            {
               "ip": "146.70.250.2",
               "ip2": "146.70.250.3",
               "ip3": "146.70.250.4",
               "hostname": "hk-016.whiskergalaxy.com",
               "weight": 1,
               "health": 4
+            },
+            {
+              "ip": "146.70.250.18",
+              "ip2": "146.70.250.19",
+              "ip3": "146.70.250.20",
+              "hostname": "hk-014.whiskergalaxy.com",
+              "weight": 1,
+              "health": 4
             }
           ],
           "health": 4
+        },
+        {
+          "id": 189,
+          "city": "Hong Kong",
+          "nick": "Phooey",
+          "pro": 1,
+          "gps": "22.29,114.16",
+          "tz": "Asia/Hong_Kong",
+          "wg_pubkey": "zi62xnrtbvAbaavB8MLoTF36BX/stxjfnGJ6mIsZYzg=",
+          "wg_endpoint": "hkg-189-wg.whiskergalaxy.com",
+          "ovpn_x509": "hkg-189.windscribe.com",
+          "ping_ip": "149.40.54.129",
+          "ping_host": "http://hk-010.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
         }
       ]
     },
@@ -3542,6 +3542,20 @@
       "loc_type": "normal",
       "groups": [
         {
+          "id": 464,
+          "city": "Bali",
+          "nick": "Pulau Dewata",
+          "pro": 1,
+          "gps": "-8.41,115.19",
+          "tz": "Central Indonesian Time",
+          "wg_pubkey": "ouS9LyddSOpJKZKyOhx8XHiwTfAd8alUIrz27eEzJyY=",
+          "wg_endpoint": "dps-464-wg.whiskergalaxy.com",
+          "ovpn_x509": "dps-464.windscribe.com",
+          "ping_ip": "103.83.192.2",
+          "ping_host": "http://id-013.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
+        },
+        {
           "id": 416,
           "city": "Jakarta",
           "nick": "Ancol",
@@ -3551,8 +3565,8 @@
           "wg_pubkey": "n+cx0HnDtLEjiK8TzHH2qhuBKKZvt1iWU/e0ba0jyRE=",
           "wg_endpoint": "cgk-416-wg.whiskergalaxy.com",
           "ovpn_x509": "cgk-416.windscribe.com",
-          "ping_ip": "103.87.68.50",
-          "ping_host": "http://id-009.whiskergalaxy.com:6464/latency",
+          "ping_ip": "103.87.68.146",
+          "ping_host": "http://id-010.whiskergalaxy.com:6464/latency",
           "link_speed": "1000"
         },
         {
@@ -3567,20 +3581,6 @@
           "ovpn_x509": "cgk-391.windscribe.com",
           "ping_ip": "129.227.44.190",
           "ping_host": "http://id-011.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
-        },
-        {
-          "id": 464,
-          "city": "Bali",
-          "nick": "Pulau Dewata",
-          "pro": 1,
-          "gps": "-8.41,115.19",
-          "tz": "Central Indonesian Time",
-          "wg_pubkey": "ouS9LyddSOpJKZKyOhx8XHiwTfAd8alUIrz27eEzJyY=",
-          "wg_endpoint": "dps-464-wg.whiskergalaxy.com",
-          "ovpn_x509": "dps-464.windscribe.com",
-          "ping_ip": "103.83.192.2",
-          "ping_host": "http://id-013.whiskergalaxy.com:6464/latency",
           "link_speed": "1000"
         },
         {
@@ -3613,20 +3613,6 @@
       "force_expand": 1,
       "groups": [
         {
-          "id": 287,
-          "city": "Tokyo",
-          "nick": "Wabi-sabi",
-          "pro": 1,
-          "gps": "35.69,139.69",
-          "tz": "Asia/Tokyo",
-          "wg_pubkey": "X6LjCVZ41wLoSbWWZpFET+Ejw0VsGuvJ5utU/l3rKl4=",
-          "wg_endpoint": "hnd-287-wg.whiskergalaxy.com",
-          "ovpn_x509": "hnd-287.windscribe.com",
-          "ping_ip": "37.120.210.146",
-          "ping_host": "http://jp-010.whiskergalaxy.com:6464/latency",
-          "link_speed": "10000"
-        },
-        {
           "id": 148,
           "city": "Tokyo",
           "nick": "Shinkansen",
@@ -3636,8 +3622,22 @@
           "wg_pubkey": "8n68GM7n6dm6Hj3RIIh5q1q6Un52Cq82LYEXHRAtPg4=",
           "wg_endpoint": "hnd-148-wg.whiskergalaxy.com",
           "ovpn_x509": "hnd-148.windscribe.com",
-          "ping_ip": "138.199.39.130",
-          "ping_host": "http://jp-011.whiskergalaxy.com:6464/latency",
+          "ping_ip": "138.199.39.144",
+          "ping_host": "http://jp-012.whiskergalaxy.com:6464/latency",
+          "link_speed": "10000"
+        },
+        {
+          "id": 287,
+          "city": "Tokyo",
+          "nick": "Wabi-sabi",
+          "pro": 1,
+          "gps": "35.69,139.69",
+          "tz": "Asia/Tokyo",
+          "wg_pubkey": "X6LjCVZ41wLoSbWWZpFET+Ejw0VsGuvJ5utU/l3rKl4=",
+          "wg_endpoint": "hnd-287-wg.whiskergalaxy.com",
+          "ovpn_x509": "hnd-287.windscribe.com",
+          "ping_ip": "37.120.210.66",
+          "ping_host": "http://jp-009.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
@@ -3711,17 +3711,17 @@
       "loc_type": "normal",
       "groups": [
         {
-          "id": 235,
+          "id": 241,
           "city": "Singapore",
-          "nick": "Marina Bay",
+          "nick": "SMRT",
           "pro": 1,
           "gps": "1.37,103.80",
           "tz": "Asia/Singapore",
-          "wg_pubkey": "sv9o+LudivUcZh3f92hEFFu5KGCT/2QISYy3OpPC0h0=",
-          "wg_endpoint": "sin-235-wg.whiskergalaxy.com",
-          "ovpn_x509": "sin-235.windscribe.com",
-          "ping_ip": "156.146.56.110",
-          "ping_host": "http://sg-007.whiskergalaxy.com:6464/latency",
+          "wg_pubkey": "tJa6iPx6mpOktn5KoalMslWcpg6pRUdVx3bKDi3wtDg=",
+          "wg_endpoint": "sin-241-wg.whiskergalaxy.com",
+          "ovpn_x509": "sin-241.windscribe.com",
+          "ping_ip": "103.107.198.226",
+          "ping_host": "http://sg-008.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         },
         {
@@ -3739,17 +3739,17 @@
           "link_speed": "10000"
         },
         {
-          "id": 241,
+          "id": 235,
           "city": "Singapore",
-          "nick": "SMRT",
+          "nick": "Marina Bay",
           "pro": 1,
           "gps": "1.37,103.80",
           "tz": "Asia/Singapore",
-          "wg_pubkey": "tJa6iPx6mpOktn5KoalMslWcpg6pRUdVx3bKDi3wtDg=",
-          "wg_endpoint": "sin-241-wg.whiskergalaxy.com",
-          "ovpn_x509": "sin-241.windscribe.com",
-          "ping_ip": "103.107.198.242",
-          "ping_host": "http://sg-012.whiskergalaxy.com:6464/latency",
+          "wg_pubkey": "sv9o+LudivUcZh3f92hEFFu5KGCT/2QISYy3OpPC0h0=",
+          "wg_endpoint": "sin-235-wg.whiskergalaxy.com",
+          "ovpn_x509": "sin-235.windscribe.com",
+          "ping_ip": "152.233.9.239",
+          "ping_host": "http://sg-020.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
@@ -3767,20 +3767,6 @@
       "loc_type": "normal",
       "groups": [
         {
-          "id": 399,
-          "city": "Seoul",
-          "nick": "Namsan",
-          "pro": 1,
-          "gps": "37.57,126.98",
-          "tz": "Asia/Seoul",
-          "wg_pubkey": "4LAPQWjzxtuGHyHjij+ZiM3idLe3xY9IiYNFD/V9akM=",
-          "wg_endpoint": "icn-399-wg.whiskergalaxy.com",
-          "ovpn_x509": "icn-399.windscribe.com",
-          "ping_ip": "58.120.141.74",
-          "ping_host": "http://kr-010.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
-        },
-        {
           "id": 362,
           "city": "Seoul",
           "nick": "Hangang",
@@ -3792,6 +3778,20 @@
           "ovpn_x509": "icn-362.windscribe.com",
           "ping_ip": "1.220.90.178",
           "ping_host": "http://kr-011.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
+        },
+        {
+          "id": 399,
+          "city": "Seoul",
+          "nick": "Namsan",
+          "pro": 1,
+          "gps": "37.57,126.98",
+          "tz": "Asia/Seoul",
+          "wg_pubkey": "4LAPQWjzxtuGHyHjij+ZiM3idLe3xY9IiYNFD/V9akM=",
+          "wg_endpoint": "icn-399-wg.whiskergalaxy.com",
+          "ovpn_x509": "icn-399.windscribe.com",
+          "ping_ip": "58.120.141.74",
+          "ping_host": "http://kr-010.whiskergalaxy.com:6464/latency",
           "link_speed": "1000"
         }
       ]
@@ -3818,8 +3818,8 @@
           "wg_pubkey": "UjtKwf+NDOzCeHKwZFC/3lE6r1uHFU8viKRgRD6KCjg=",
           "wg_endpoint": "tpe-166-wg.whiskergalaxy.com",
           "ovpn_x509": "tpe-166.windscribe.com",
-          "ping_ip": "211.20.143.73",
-          "ping_host": "http://tw-014.whiskergalaxy.com:6464/latency",
+          "ping_ip": "220.130.62.46",
+          "ping_host": "http://tw-015.whiskergalaxy.com:6464/latency",
           "link_speed": "1000"
         }
       ]
@@ -3902,8 +3902,8 @@
           "wg_pubkey": "TKpGTxyjCr7+CiVhaYulaLZ7pnXEsg4135ZIlz99qwc=",
           "wg_endpoint": "dxb-304-wg.whiskergalaxy.com",
           "ovpn_x509": "dxb-304.windscribe.com",
-          "ping_ip": "146.70.191.98",
-          "ping_host": "http://ae-002.whiskergalaxy.com:6464/latency",
+          "ping_ip": "146.70.191.194",
+          "ping_host": "http://ae-003.whiskergalaxy.com:6464/latency",
           "link_speed": "1000"
         }
       ]
@@ -3963,20 +3963,6 @@
       "loc_type": "normal",
       "groups": [
         {
-          "id": 278,
-          "city": "Buenos Aires",
-          "nick": "Tango",
-          "pro": 1,
-          "gps": "-34.53,-58.51",
-          "tz": "America/Argentina/Buenos_Aires",
-          "wg_pubkey": "2+O8VAshLkyWM1b6Ye2Cuoa3R/guKZgQ+YLoCsseWCU=",
-          "wg_endpoint": "eze-278-wg.whiskergalaxy.com",
-          "ovpn_x509": "eze-278.windscribe.com",
-          "ping_ip": "190.103.176.146",
-          "ping_host": "http://ar-008.whiskergalaxy.com:6464/latency",
-          "link_speed": "1000"
-        },
-        {
           "id": 451,
           "city": "Buenos Aires",
           "nick": "Yerba Mate",
@@ -3989,6 +3975,20 @@
           "ping_ip": "84.233.234.14",
           "ping_host": "http://ar-013.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
+        },
+        {
+          "id": 278,
+          "city": "Buenos Aires",
+          "nick": "Tango",
+          "pro": 1,
+          "gps": "-34.53,-58.51",
+          "tz": "America/Argentina/Buenos_Aires",
+          "wg_pubkey": "2+O8VAshLkyWM1b6Ye2Cuoa3R/guKZgQ+YLoCsseWCU=",
+          "wg_endpoint": "eze-278-wg.whiskergalaxy.com",
+          "ovpn_x509": "eze-278.windscribe.com",
+          "ping_ip": "190.103.176.146",
+          "ping_host": "http://ar-008.whiskergalaxy.com:6464/latency",
+          "link_speed": "1000"
         }
       ]
     },
@@ -4014,8 +4014,8 @@
           "wg_pubkey": "c88CXfzJqasp/RIf7hQyYjrakrSyI4zfZdcTmcTwwxQ=",
           "wg_endpoint": "gru-165-wg.whiskergalaxy.com",
           "ovpn_x509": "gru-165.windscribe.com",
-          "ping_ip": "149.102.251.193",
-          "ping_host": "http://br-009.whiskergalaxy.com:6464/latency",
+          "ping_ip": "149.102.251.206",
+          "ping_host": "http://br-008.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         },
         {
@@ -4336,16 +4336,16 @@
           "wg_pubkey": "vwimooPysZvNdJULeFQVovYfqhsLG5gVdzgoTnfm+iE=",
           "wg_endpoint": "wfr-332-wg.whiskergalaxy.com",
           "ovpn_x509": "wfr-332.windscribe.com",
-          "ping_ip": "149.57.28.9",
-          "ping_host": "http://aq-002.whiskergalaxy.com:6464/latency",
+          "ping_ip": "149.57.28.8",
+          "ping_host": "http://aq-001.whiskergalaxy.com:6464/latency",
           "link_speed": "10000"
         }
       ]
     }
   ],
   "info": {
-    "revision": 29617980,
-    "revision_hash": "121562caf25ee5735f801e9a560ce7655ff71d9f",
+    "revision": 29619360,
+    "revision_hash": "53d23fff640850322571f8a5cb3400dc9b28b97c",
     "changed": 1,
     "fc": 1,
     "pro_datacenters": []
